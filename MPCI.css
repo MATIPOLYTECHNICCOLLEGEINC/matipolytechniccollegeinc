@@ -29,7 +29,11 @@ header .container {
     display: flex;
     justify-content: space-between; /* Aligns logo to the left and menu to the right */
     align-items: center;
+    width: 100%; /* Scale the container based on viewport size */
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the container */
 }
+
 
 /* Logo on the left */
 .logo img {
