@@ -16,6 +16,7 @@ html, body {
     text-align: center;
 }
 
+
 /* Header Section */
 header {
     background-color: #0a0372;
@@ -29,11 +30,13 @@ header .container {
     display: flex;
     justify-content: space-between; /* Aligns logo to the left and menu to the right */
     align-items: center;
-    width: 100%; /* Scale the container based on viewport size */
+}
+
+.container {
+    width: 90%; /* Scale the container based on viewport size */
     max-width: 1200px; /* Maximum width for larger screens */
     margin: 0 auto; /* Center the container */
 }
-
 
 /* Logo on the left */
 .logo img {
@@ -129,10 +132,12 @@ nav ul.menu li a:hover {
 
 /* Main Section */
 .main-content {
-    flex: 1;
-    padding: 20px 0;
-    background-color: #f0f0f0;
-    text-align: center;
+    display: flex;
+    justify-content: center; /* Horizontally centers the button */
+    align-items: center; /* Vertically centers the button */
+    flex-direction: column; /* Stack elements vertically */
+    height: auto; /* Ensures flexibility for content height */
+    padding: 10px;
     
 }
 
@@ -182,6 +187,7 @@ nav ul.menu li a:hover {
     justify-content: center; /* Center the images within the container */
     gap: 20px; /* Add spacing between boxes */
     margin-top: 100px;
+    overflow-x: auto; /* Enable horizontal scrolling */
 }
 
 .course-image {
@@ -192,12 +198,11 @@ nav ul.menu li a:hover {
     opacity: 0; /* Initially hide the image */
     transform: translateY(-10%); /* Initially place the image off-screen at the top */
     animation: slide-in-top 0.8s forwards ease-in-out; /* Apply the animation */
-    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .course-image img {
     width: 100%; /* Make the image responsive to the box size */
-    height: auto; /* Maintain the aspect ratio */
+    height: 3in; /* Maintain the aspect ratio */
 }
 
 .course-images2 {
@@ -218,6 +223,7 @@ nav ul.menu li a:hover {
     transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
 }
 
+
 /* Hover effect: glowing image */
 .course-image:hover {
     box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7); /* Glowing green effect */
@@ -226,7 +232,7 @@ nav ul.menu li a:hover {
 
 .course-image2 img {
     width: 100%; /* Make the image responsive to the box size */
-    height: auto; /* Maintain the aspect ratio */
+    height: 3in; /* Maintain the aspect ratio */
 }
 
 /* Animation keyframes for sliding in from the top */
@@ -284,13 +290,16 @@ nav ul.menu li a:hover {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    margin: 20px auto; /* Center the button horizontally */
+    display: inline-block; /* Ensure the button behaves like a block element */
     position: relative;
-    top: 50px;
 }
 
 .btn:hover {
     background-color: #ff0000;
 }
+
+
 
 .course-list {
     list-style: none;
