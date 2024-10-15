@@ -20,6 +20,7 @@ html, body {
 /* Header Section */
 header {
     background-color: #0a0372;
+    width: 100%;
     height: 80px;
     color: #fff;
     padding: 10px 0;
