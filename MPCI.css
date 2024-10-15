@@ -250,7 +250,7 @@ nav ul.menu li a:hover {
 
 /* Hover effect: glowing image */
 .course-image2:hover {
-    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7); /* Glowing green effect */
+    box-shadow: 0 0 20px 5px rgba(17, 17, 17, 0.7); /* Glowing green effect */
 }
 
 
