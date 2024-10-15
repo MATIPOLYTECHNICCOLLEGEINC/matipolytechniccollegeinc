@@ -1,0 +1,485 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: Century Gothic, Poppins;
+}
+
+/* Make the main content take all available space, pushing the footer down */
+.main-content, .courses-section, .about-section {
+    flex: 1; /* Makes sure this section stretches to fill the available space */
+    padding: 50px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: #0a0372;
+    height: 80px;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between; /* Aligns logo to the left and menu to the right */
+    align-items: center;
+}
+
+/* Logo on the left */
+.logo img {
+    width: 80px; /* You can adjust the size of the logo as needed */
+    margin-left: 40px;
+}
+
+/* Menu on the right */
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-right: 40px;
+}
+
+nav ul.menu li {
+    margin: 0 15px;
+}
+
+nav ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Keyframes for text animation (fade in and move up) */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(0px); /* Move text slightly down */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(20px); /* Move to normal position */
+    }
+}
+
+/* Keyframes for menu animation (fade in from right) */
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px); /* Start by moving the menu to the right */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* End at the normal position */
+    }
+}
+
+/* Animation for the main content text */
+.main-content h2,
+.main-content p {
+    opacity: 0;
+    animation: fadeInUp 1.5s ease forwards;
+}
+
+/* Delay the paragraph animation slightly for a staggered effect */
+.main-content p {
+    animation-delay: 0.5s;
+}
+
+/* Animation for the menu items */
+nav ul.menu li {
+    opacity: 0;
+    animation: fadeInRight 1.5s ease forwards;
+    animation-delay: 0.2s;
+}
+
+nav ul.menu li:nth-child(2) {
+    animation-delay: 0.4s; /* Slight delay for the second menu item */
+}
+
+nav ul.menu li:nth-child(3) {
+    animation-delay: 0.6s; /* Slight delay for the third menu item */
+}
+
+/* Hover effect for heading and paragraph */
+.main-content h2:hover {
+    color: #ffffff; /* Change text color on hover */
+    transform: scale(1.05); /* Slightly enlarge the text */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for menu items */
+nav ul.menu li a:hover {
+    color: #ff0000; /* Change text color to gold on hover */
+    transition: color 0.3s ease; /* Smooth transition */
+    font-weight: bold;
+}
+
+
+
+/* Main Section */
+.main-content {
+    flex: 1;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    
+}
+
+.container1 {
+    margin-bottom: 0%;
+}
+
+.main-content h2 {
+    color: #0a0372;
+    font-size: 3em;
+    margin: 0%;
+}
+
+.vmc1 {
+    text-align: center;
+    color: #0a0372;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.vmc {
+    text-align: center;
+    color: #0a0372;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.main-content h4 {
+    position: relative;
+    align-items: center;
+    color: #ff0000;
+    margin: 20px;
+    top: 5px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.par {
+    margin: 50px;
+    color: #0a0372;
+}
+
+
+/* Image box styling */
+.course-images {
+    display: flex; /* Align images horizontally */
+    justify-content: center; /* Center the images within the container */
+    gap: 20px; /* Add spacing between boxes */
+    margin-top: 100px;
+}
+
+.course-image {
+    width: 2in; /* Width of the image box */
+    height: 3in; /* Height of the image box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Default shadow */
+    overflow: hidden; /* Ensures the image doesn't overflow the box */
+    opacity: 0; /* Initially hide the image */
+    transform: translateY(-10%); /* Initially place the image off-screen at the top */
+    animation: slide-in-top 0.8s forwards ease-in-out; /* Apply the animation */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.course-image img {
+    width: 100%; /* Make the image responsive to the box size */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.course-images2 {
+    display: flex; /* Align images horizontally */
+    justify-content: center; /* Center the images within the container */
+    gap: 20px; /* Add spacing between boxes */
+    margin-top: 100px;
+}
+
+.course-image2 {
+    width: 2in; /* Width of the image box */
+    height: 3in; /* Height of the image box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Default shadow */
+    overflow: hidden; /* Ensures the image doesn't overflow the box */
+    opacity: 0; /* Initially hide the image */
+    transform: translateY(-10%); /* Initially place the image off-screen at the top */
+    animation: slide-in-top 0.8s forwards ease-in-out; /* Apply the animation */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect: glowing image */
+.course-image:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7); /* Glowing green effect */
+}
+
+
+.course-image2 img {
+    width: 100%; /* Make the image responsive to the box size */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* Animation keyframes for sliding in from the top */
+@keyframes slide-in-top {
+    from {
+        opacity: 0; /* Start fully transparent */
+        transform: translateY(-10%); /* Start from top off the screen */
+    }
+    to {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Slide to the final position */
+    }
+}
+
+/* Hover effect: glowing image */
+.course-image2:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7); /* Glowing green effect */
+}
+
+
+.course-name1, .course-name2, .course-name3, .course-name4, .course-name5 {
+    font-size: large;
+    font-weight: bolder;
+    width: 2in; /* Width of the image box */
+    height: fit-content;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center the image and text horizontally */
+}
+
+.course-name {
+    display: flex; /* Align images horizontally */
+    justify-content: center; /* Center the images within the container */
+    gap: 20px; /* Add spacing between boxes */
+}
+
+.course-name1:hover {
+    color: #ff0000; /* Change text color on hover */
+}
+.course-name2:hover {
+    color: #ffe600; /* Change text color on hover */
+}
+.course-name3:hover {
+    color: #ff00c8; /* Change text color on hover */
+}
+.course-name4:hover {
+    color: #003cff; /* Change text color on hover */
+}
+.course-name5:hover {
+    color: #51ff00; /* Change text color on hover */
+}
+
+.btn {
+    background-color: #0a0372;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+}
+
+.course-list {
+    list-style: none;
+}
+
+/* Footer Section */
+footer {
+    background-color: #000000;
+    color: #ff0000;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links li a {
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* ABOUT US */
+/* Wrapper to use flexbox */
+.wrapper {
+    display: flex; 
+    flex-direction: column; /* Stack children vertically */
+    min-height: 100vh; /* Make it at least the height of the viewport */
+}
+
+/* General styling for the About Us section */
+.about-us {
+    margin: 50px 0;
+}
+
+.about_us {
+    color: #0a0372;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about {
+    font-size: 1.1em;
+    margin-bottom: 30px; /* Add space below the paragraph */
+    margin-top: 0px;
+    line-height: 1.6; /* Improve readability by increasing line height */
+    max-width: 800px; /* Limit the width of the paragraph */
+    margin-left: auto; /* Center the paragraph horizontally */
+    margin-right: auto; /* Center the paragraph horizontally */
+    text-align: center; /* Ensure the paragraph text is centered */
+}
+
+.aboutl {
+    font-size: 1.1em;
+    margin-bottom: 100px; /* Add space below the paragraph */
+    margin-top: 10px;
+    line-height: 1.6; /* Improve readability by increasing line height */
+    max-width: 800px; /* Limit the width of the paragraph */
+    margin-left: auto; /* Center the paragraph horizontally */
+    margin-right: auto; /* Center the paragraph horizontally */
+    text-align: center; /* Ensure the paragraph text is centered */
+    margin-bottom: 200px;
+}
+
+
+/* Indentation for h3 headings */
+h3 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    color: #1d027c; /* Dark color for section headings */
+    margin-left: 50px; /* Add left margin for indentation */
+    margin-bottom: 10px;
+}
+
+/* Styling for employee lists */
+.employee-list {
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 0; /* Remove left padding of the list itself */
+    margin: 15px 0;
+}
+
+
+.employee-list li {
+    font-size: 1.1em; /* Slightly larger font for readability */
+    padding: 8px 0px; /* Add padding to create space on the left and inside */
+    border-bottom: 1px solid #ddd; /* Add a subtle line between each employee */
+    margin-left: 50px; /* Add space on the left for each list item */
+    margin-right: 50px;
+    cursor: pointer; /* Change cursor to pointer to indicate clickability */
+    transition: background-color 0.3s, transform 0.2s ease; /* Smooth hover effect */
+    color: #333; /* Default color */
+    text-decoration: none; /* Remove any underline */
+    display: block; /* Make the entire list item clickable */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* School Heads styling */
+.school-heads li {
+    font-weight: bold; /* Make school heads' names bold */
+}
+
+ul.employee-list.school-heads li {
+display: flex;
+justify-content: space-between;
+padding: 5px 0; /* Optional: Add space between items */
+}
+      
+ul.employee-list.school-heads li .name {
+flex-basis: 40%; /* Adjust this value to control the width of the name section */
+text-align: left;
+}
+      
+ul.employee-list.school-heads li .position {
+flex-basis: 60%; /* Adjust this value to control the width of the position section */
+text-align: left;
+color: gray; /* Optional: Style the position differently */
+}
+
+/* Hover effect: change background color and add slight movement */
+.employee-list li:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+    transform: scale(1.02); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect on hover */
+}
+
+/* Styling for staff members */
+.staff li {
+    color: #555; /* Slightly lighter text for staff */
+}
+
+ul.employee-list.staff li {
+display: flex;
+justify-content: space-between;
+padding: 5px 0; /* Optional: Add space between items */
+}
+  
+ul.employee-list.staff li .name {
+flex-basis: 40%; /* Adjust this value to control the width of the name section */
+text-align: left;
+}
+  
+ul.employee-list.staff li .position {
+flex-basis: 60%; /* Adjust this value to control the width of the position section */
+text-align: left;
+color: gray; /* Optional: Style the position differently */
+}
+
+/* Styling for faculty members */
+.faculty li {
+    color: #333; /* Darker color for faculty */
+}
+
+ul.employee-list.faculty li {
+display: flex;
+justify-content: space-between;
+padding: 5px 0; /* Optional: Add space between items */
+}
+      
+ul.employee-list.faculty li .name {
+flex-basis: 40%; /* Adjust this value to control the width of the name section */
+text-align: left;
+}
+      
+ul.employee-list.faculty li .position {
+flex-basis: 60%; /* Adjust this value to control the width of the position section */
+text-align: left;
+color: gray; /* Optional: Style the position differently */
+}
+
+
+/* Remove bottom border for the last list item */
+.employee-list li:last-child {
+    border-bottom: none;
+}
+
+/* Styling for employee lists */
+.employee-list,
+.staff,
+.faculty {
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 0; /* Remove left padding of the list itself */
+    margin: 15px 0; /* Space between the lists */
+}
+
+
