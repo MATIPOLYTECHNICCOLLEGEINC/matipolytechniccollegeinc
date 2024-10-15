@@ -117,7 +117,7 @@ nav ul.menu li:nth-child(3) {
 
 /* Hover effect for heading and paragraph */
 .main-content h2:hover {
-    color: #ffffff; /* Change text color on hover */
+    color: #ff0000; /* Change text color on hover */
     transform: scale(1.05); /* Slightly enlarge the text */
     transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
