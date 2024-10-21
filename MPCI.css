@@ -221,7 +221,7 @@ nav ul.menu li a:hover {
     color: #0a0372;
     font-size: 16px; /* Default font size for larger screens */
     text-align: center; /* Horizontally center the text */
-    margin: 0 auto; /* Center horizontally within its container */
+    margin: 0 auto 50px; /* Center horizontally within its container */
     padding: 10px; /* Optional padding */
 }
 
@@ -312,7 +312,7 @@ nav ul.menu li a:hover {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin: 20px auto; /* Center the button horizontally */
+    margin: 20px auto 50px; /* Center the button horizontally */
     display: inline-block; /* Ensure the button behaves like a block element */
     position: relative;
 }
@@ -331,7 +331,6 @@ footer {
     background-color: #000000;
     color: #ff0000;
     font-weight: bold;
-    padding: 20px 0;
     text-align: center;
     flex-shrink: 0;
 }
