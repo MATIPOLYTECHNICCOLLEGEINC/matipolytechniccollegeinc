@@ -169,22 +169,18 @@ nav ul.menu li a:hover {
     flex-direction: column; /* Stack elements vertically */
     width: 100%; /* Full width of the screen */
     height: auto; /* Flexible content height */
-    max-width: 1200px; /* Limits the width on larger screens */
     margin: 0 auto; /* Centers the container horizontally */
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 
 .container1 {
     margin-bottom: 0;
-    margin-left: 160px;
-    margin-right: 160px;
 }
 
 .main-content h2 {
     color: #0a0372;
-    font-size: 3em;
-    margin-top: 5%;
+    font-size: 1.5em;
 }
 
 @media (max-width: 768px) { /* For tablets and smaller devices */
@@ -214,15 +210,30 @@ nav ul.menu li a:hover {
 .vmc1 {
     text-align: center;
     color: #0a0372;
-    font-weight: 400;
-    margin-top: 0px;
+    margin-top: 200px;
 }
 
 .vmc {
     text-align: center;
     color: #0a0372;
-    font-weight: 400;
     margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    .vmc1 {
+        text-align: center;
+        color: #0a0372;
+        margin-top: 200px;
+    }
+    .vmc {
+        text-align: center;
+        color: #0a0372;
+        margin-bottom: 10px;
+    }
+    .container1 {
+        margin-top: 2000px;
+        margin-left: 100px;
+    }
 }
 
 .main-content h4 {
@@ -511,7 +522,7 @@ footer {
     margin-left: auto; /* Center the paragraph horizontally */
     margin-right: auto; /* Center the paragraph horizontally */
     text-align: center; /* Ensure the paragraph text is centered */
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 
