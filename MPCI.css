@@ -34,11 +34,6 @@ header .container {
     align-items: center;
 }
 
-.container {
-    width: 90%; /* Scale the container based on viewport size */
-    max-width: 1200px; /* Maximum width for larger screens */
-    margin: 0 auto; /* Center the container */
-}
 
 /* Logo on the left */
 .logo img {
@@ -60,8 +55,20 @@ nav ul.menu {
     margin-right: 40px;
 }
 
+@media (max-width: 480px) {
+    nav ul.menu {
+        margin-right: 30px;
+    }
+ }
+
 nav ul.menu li {
     margin: 0 15px;
+}
+
+@media (max-width: 480px) { 
+    nav ul.menu li {
+        margin: 0 10px;
+    }
 }
 
 nav ul.menu li a {
@@ -138,13 +145,20 @@ nav ul.menu li a:hover {
 .maintext {
     text-align: center;
     color: #0a0372;
-    font-size: 2em;
+    font-size: 3em;
     margin-left: 0px;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block; /* Ensure the button behaves like a block element */
     position: relative;
     top: 20px;
+}
+
+@media (max-width: 768px) {
+    .maintext {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
 }
 
 /* Main Section */
@@ -175,7 +189,7 @@ nav ul.menu li a:hover {
 
 @media (max-width: 768px) { /* For tablets and smaller devices */
     .main-content h2 {
-        font-size: 2.5em; /* Adjust font size */
+        font-size: 2em; /* Adjust font size */
         margin-top: 3%; /* Reduce margin */
     }
 
@@ -184,7 +198,7 @@ nav ul.menu li a:hover {
     }
 
     .container1 {
-        margin-left: 900px;
+        margin-left: 1000px;
         margin-right: 100px;
     }
 }
@@ -226,7 +240,7 @@ nav ul.menu li a:hover {
     color: #0a0372;
     font-size: 16px; /* Default font size for larger screens */
     text-align: center; /* Horizontally center the text */
-    margin: 0 auto 50px; /* Center horizontally within its container */
+    margin: 0 auto 10px; /* Center horizontally within its container */
     padding: 10px; /* Optional padding */
 }
 
@@ -295,6 +309,14 @@ nav ul.menu li a:hover {
     gap: 20px; /* Add spacing between boxes */
 }
 
+@media (max-width: 480px) { 
+.course-name p {
+    margin: 5px 5px;
+    gap: 5px;
+}
+
+}
+
 .course-name1:hover {
     color: #ff0000; /* Change text color on hover */
 }
@@ -317,7 +339,7 @@ nav ul.menu li a:hover {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin: 20px auto 50px; /* Center the button horizontally */
+    margin: 10px auto 10px; /* Center the button horizontally */
     display: inline-block; /* Ensure the button behaves like a block element */
     position: relative;
 }
