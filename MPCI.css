@@ -46,6 +46,11 @@ header .container {
     margin-left: 40px;
 }
 
+@media (max-width: 768px) {
+    .logo img {margin-left: 20px;
+    }
+}
+
 /* Menu on the right */
 nav ul.menu {
     list-style: none;
