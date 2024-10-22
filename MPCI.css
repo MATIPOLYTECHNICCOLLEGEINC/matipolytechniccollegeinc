@@ -253,13 +253,47 @@ nav ul.menu li a:hover {
 
 /* Image box styling */
 
+.course-images1 {
+    display: flex; /* Align images horizontally */
+    justify-content: center; /* Center the images within the container */
+    gap: 20px; /* Add spacing between boxes */
+    margin-top: 50px;
+}
 .course-images2 {
     display: flex; /* Align images horizontally */
     justify-content: center; /* Center the images within the container */
     gap: 20px; /* Add spacing between boxes */
     margin-top: 50px;
 }
+.course-images3 {
+    display: flex; /* Align images horizontally */
+    justify-content: center; /* Center the images within the container */
+    gap: 20px; /* Add spacing between boxes */
+    margin-top: 50px;
+}
+.course-images4 {
+    display: flex; /* Align images horizontally */
+    justify-content: center; /* Center the images within the container */
+    gap: 20px; /* Add spacing between boxes */
+    margin-top: 50px;
+}
+.course-images5 {
+    display: flex; /* Align images horizontally */
+    justify-content: center; /* Center the images within the container */
+    gap: 20px; /* Add spacing between boxes */
+    margin-top: 50px;
+}
 
+.course-image1 {
+    width: 2in; /* Width of the image box */
+    height: 3in; /* Height of the image box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Default shadow */
+    overflow: hidden; /* Ensures the image doesn't overflow the box */
+    opacity: 0; /* Initially hide the image */
+    transform: translateY(-10%); /* Initially place the image off-screen at the top */
+    animation: slide-in-top 0.8s forwards ease-in-out; /* Apply the animation */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
 .course-image2 {
     width: 2in; /* Width of the image box */
     height: 3in; /* Height of the image box */
@@ -270,15 +304,73 @@ nav ul.menu li a:hover {
     animation: slide-in-top 0.8s forwards ease-in-out; /* Apply the animation */
     transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
 }
+.course-image3 {
+    width: 2in; /* Width of the image box */
+    height: 3in; /* Height of the image box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Default shadow */
+    overflow: hidden; /* Ensures the image doesn't overflow the box */
+    opacity: 0; /* Initially hide the image */
+    transform: translateY(-10%); /* Initially place the image off-screen at the top */
+    animation: slide-in-top 0.8s forwards ease-in-out; /* Apply the animation */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+.course-image4 {
+    width: 2in; /* Width of the image box */
+    height: 3in; /* Height of the image box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Default shadow */
+    overflow: hidden; /* Ensures the image doesn't overflow the box */
+    opacity: 0; /* Initially hide the image */
+    transform: translateY(-10%); /* Initially place the image off-screen at the top */
+    animation: slide-in-top 0.8s forwards ease-in-out; /* Apply the animation */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+.course-image5 {
+    width: 2in; /* Width of the image box */
+    height: 3in; /* Height of the image box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Default shadow */
+    overflow: hidden; /* Ensures the image doesn't overflow the box */
+    opacity: 0; /* Initially hide the image */
+    transform: translateY(-10%); /* Initially place the image off-screen at the top */
+    animation: slide-in-top 0.8s forwards ease-in-out; /* Apply the animation */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
 
+.course-image1 img {
+    width: 100%; /* Make the image responsive to the box size */
+    height: 3in; /* Maintain the aspect ratio */
+}
 .course-image2 img {
+    width: 100%; /* Make the image responsive to the box size */
+    height: 3in; /* Maintain the aspect ratio */
+}
+.course-image3 img {
+    width: 100%; /* Make the image responsive to the box size */
+    height: 3in; /* Maintain the aspect ratio */
+}
+.course-image4 img {
+    width: 100%; /* Make the image responsive to the box size */
+    height: 3in; /* Maintain the aspect ratio */
+}
+.course-image5 img {
     width: 100%; /* Make the image responsive to the box size */
     height: 3in; /* Maintain the aspect ratio */
 }
 
 /* Hover effect: glowing image */
+.course-image1:hover {
+    box-shadow: 0 0 20px 5px rgb(255, 0, 0); /* Glowing green effect */
+}
 .course-image2:hover {
     box-shadow: 0 0 20px 5px rgb(255, 208, 0); /* Glowing green effect */
+}
+.course-image3:hover {
+    box-shadow: 0 0 20px 5px rgb(255, 0, 255); /* Glowing green effect */
+}
+.course-image4:hover {
+    box-shadow: 0 0 20px 5px rgb(0, 102, 255); /* Glowing green effect */
+}
+.course-image5:hover {
+    box-shadow: 0 0 20px 5px rgb(60, 255, 0); /* Glowing green effect */
 }
 
 /* Animation keyframes for sliding in from the top */
