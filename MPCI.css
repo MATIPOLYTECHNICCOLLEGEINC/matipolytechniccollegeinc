@@ -219,7 +219,9 @@ nav ul.menu li a:hover {
         margin-right: 100px;
         margin-bottom: 20px;
     }
-    
+    .container3 {
+    margin-top: 1400px;
+    }
 }
 
 @media (max-width: 480px) { 
@@ -282,6 +284,9 @@ nav ul.menu li a:hover {
 }
 
 @media (max-width: 480px) { 
+    .about2 {
+        padding-left: 10px;
+    }
     .par {
         font-size: 12px; 
     }
