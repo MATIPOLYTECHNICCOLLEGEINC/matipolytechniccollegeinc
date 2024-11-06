@@ -170,12 +170,28 @@ nav ul.menu li a:hover {
     width: 100%; /* Full width of the screen */
     height: auto; /* Flexible content height */
     margin: 0 auto; /* Centers the container horizontally */
-    overflow-x: auto;
+    overflow: hidden;
 }
 
+.main-content2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Horizontally center the content */
+    flex-direction: column; /* Stack elements vertically */
+    width: 100%; /* Full width of the screen */
+    height: auto; /* Flexible content height */
+    margin: 0 auto; /* Centers the container horizontally */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 
 .container1 {
     margin-bottom: 0;
+}
+
+.container2 {
+    margin-bottom: 0;
+    margin-top: 200px;
 }
 
 .main-content h2 {
@@ -193,10 +209,19 @@ nav ul.menu li a:hover {
         overflow-x: scroll;
     }
 
+    .main-content2 {
+        overflow-y: scroll;
+        align-items: center;
+        justify-content: center; /* Horizontally center the content */
+        margin-left: 0;
+    }
+
     .container1 {
         margin-left: 1000px;
         margin-right: 100px;
+        margin-bottom: 20px;
     }
+    
 }
 
 @media (max-width: 480px) { /* For mobile screens */
@@ -205,12 +230,18 @@ nav ul.menu li a:hover {
         margin-top: 2%; /* Reduce margin for mobile */
     }
 
+    .main-content2 {
+        overflow-y: scroll;
+        align-items: center;
+        justify-content: center; /* Horizontally center the content */
+    }
+
 }
 
 .vmc1 {
     text-align: center;
     color: #0a0372;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .vmc {
@@ -230,10 +261,7 @@ nav ul.menu li a:hover {
         color: #0a0372;
         margin-bottom: 10px;
     }
-    .container1 {
-        margin-top: 2000px;
-        margin-left: 100px;
-    }
+    
 }
 
 .main-content h4 {
