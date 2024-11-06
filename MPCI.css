@@ -553,6 +553,18 @@ footer {
     margin-bottom: 100px;
 }
 
+.about2 {
+    font-size: 1.1em;
+    margin-bottom: 100px; /* Add space below the paragraph */
+    margin-top: 1600px;
+    line-height: 1.6; /* Improve readability by increasing line height */
+    max-width: 800px; /* Limit the width of the paragraph */
+    margin-left: auto; /* Center the paragraph horizontally */
+    margin-right: auto; /* Center the paragraph horizontally */
+    text-align: left; /* Ensure the paragraph text is centered */
+    margin-bottom: 100px;
+}
+
 
 /* Indentation for h3 headings */
 h3 {
