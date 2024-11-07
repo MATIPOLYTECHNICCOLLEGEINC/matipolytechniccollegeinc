@@ -54,7 +54,7 @@ nav ul.menu {
 
 @media (max-width: 480px) {
     nav ul.menu {
-        margin-right: 30px;
+        margin-right: 20px;
     }
  }
 
@@ -214,7 +214,7 @@ nav ul.menu li a:hover {
     }
 
     .container1 {
-        margin-left: 1000px;
+        margin-left: 950px;
         margin-right: 100px;
         margin-bottom: 20px;
     }
@@ -251,7 +251,7 @@ nav ul.menu li a:hover {
     .vmc1 {
         text-align: center;
         color: #0a0372;
-        margin-top: 200px;
+        margin-top: 400px;
     }
     .vmc {
         text-align: center;
@@ -289,14 +289,13 @@ nav ul.menu li a:hover {
         font-size: 12px; 
     }
     .container3 {
-        margin-top: 800px;
+        margin-top: 900px;
     }
     
 }
 
 
 /* Image box styling */
-
 .course-images1 {
     display: flex; 
     justify-content: center; 
