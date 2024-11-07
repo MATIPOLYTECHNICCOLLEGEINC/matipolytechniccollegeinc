@@ -201,20 +201,17 @@ nav ul.menu li a:hover {
         font-size: 2em; 
         margin-top: 3%; 
     }
-
     .main-content {
         overflow-x: scroll;
     }
-
     .main-content2 {
         overflow-y: scroll;
         align-items: center;
         justify-content: center;
         margin-left: 0;
     }
-
     .container1 {
-        margin-left: 950px;
+        margin-left: 1425px;
         margin-right: 100px;
         margin-bottom: 20px;
     }
@@ -279,7 +276,6 @@ nav ul.menu li a:hover {
     margin: 0 auto 10px; 
     padding: 10px; 
 }
-
 
 @media (max-width: 480px) { 
     .about2 {
@@ -397,6 +393,17 @@ nav ul.menu li a:hover {
 .course-image5 img {
     width: 100%; 
     height: 3in; 
+}
+
+@media (max-width: 480px) { 
+    .course-image1, .course-image2, .course-image3, .course-image4, .course-image5 {
+        width: 3in; 
+        height: 4in;
+    }
+    .course-image1 img, .course-image2 img, .course-image3 img, .course-image4 img, .course-image5 img {
+        width: 100%; 
+        height: 100%; 
+    }
 }
 
 /* Hover effect: glowing image */
