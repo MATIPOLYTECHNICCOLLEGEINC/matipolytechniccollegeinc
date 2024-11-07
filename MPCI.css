@@ -5,8 +5,7 @@ html, body {
     display: flex;
     flex-direction: column;
     font-family: Century Gothic, Poppins;
-    overflow-y: scroll;
-    overflow-x: scroll;
+    overflow: hidden;
 }
 
 .main-content, .courses-section, .about-section {
@@ -237,7 +236,7 @@ nav ul.menu li a:hover {
     .vmc1 {
         text-align: center;
         color: #0a0372;
-        margin-top: 400px;
+        margin-top: 450px;
     }
     .vmc {
         text-align: center;
@@ -683,4 +682,5 @@ color: gray;
     padding-left: 0; 
     margin: 15px 0; 
 }
+
 
