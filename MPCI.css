@@ -8,7 +8,6 @@ html, body {
     overflow: hidden;
 }
 
-
 .main-content, .courses-section, .about-section {
     flex: 1; 
     background-position: center;
@@ -219,9 +218,7 @@ nav ul.menu li a:hover {
         margin-right: 100px;
         margin-bottom: 20px;
     }
-    .container3 {
-    margin-top: 1400px;
-    }
+
 }
 
 @media (max-width: 480px) { 
@@ -283,6 +280,7 @@ nav ul.menu li a:hover {
     padding: 10px; 
 }
 
+
 @media (max-width: 480px) { 
     .about2 {
         padding-left: 10px;
@@ -290,6 +288,10 @@ nav ul.menu li a:hover {
     .par {
         font-size: 12px; 
     }
+    .container3 {
+        margin-top: 800px;
+    }
+    
 }
 
 
@@ -309,7 +311,7 @@ nav ul.menu li a:hover {
 }
 .course-images3 {
     display: flex; 
-    justify-content: center; /
+    justify-content: center;
     gap: 20px; 
     margin-top: 50px;
 }
