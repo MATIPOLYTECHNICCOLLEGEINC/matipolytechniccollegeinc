@@ -151,12 +151,6 @@ nav ul.menu li a:hover {
     top: 20px;
 }
 
-@media (max-height: 400) {
-    .maintext {
-        font-size: 1em;   
-    }
-}
-
 /* Main Section */
 .main-content {
     display: flex;
@@ -197,6 +191,7 @@ nav ul.menu li a:hover {
     }
     .main-content {
         overflow-x: scroll;
+        overflow-y: scroll;
     }
     .main-content2 {
         overflow-y: scroll;
@@ -516,7 +511,6 @@ footer {
     text-decoration: none;
 }
 
-
 /* ABOUT US */
 /* Wrapper to use flexbox */
 .wrapper {
@@ -571,7 +565,6 @@ footer {
     text-align: left; 
     margin-bottom: 100px;
 }
-
 
 /* Indentation for h3 headings */
 h3 {
@@ -689,5 +682,4 @@ color: gray;
     padding-left: 0; 
     margin: 15px 0; 
 }
-
 
