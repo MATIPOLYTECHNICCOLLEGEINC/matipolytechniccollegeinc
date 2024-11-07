@@ -15,7 +15,6 @@ html, body {
     text-align: center;
 }
 
-
 /* Header Section */
 header {
     background-color: #0a0372;
@@ -52,7 +51,7 @@ nav ul.menu {
     margin-right: 40px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     nav ul.menu {
         margin-right: 20px;
     }
@@ -62,7 +61,7 @@ nav ul.menu li {
     margin: 0 15px;
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 768px) { 
     nav ul.menu li {
         margin: 0 10px;
     }
@@ -177,6 +176,18 @@ nav ul.menu li a:hover {
 .container2 {
     margin-bottom: 0;
     margin-top: 200px;
+    animation: slide-in-Bot 0.8s forwards ease-in-out; 
+}
+
+@keyframes slide-in-Bot {
+    0% {
+        opacity: 0;
+        transform: translateY(-1px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(20px); 
+    }
 }
 
 .main-content h2 {
@@ -191,7 +202,6 @@ nav ul.menu li a:hover {
     }
     .main-content {
         overflow-x: scroll;
-        overflow-y: scroll;
     }
     .main-content2 {
         overflow-y: scroll;
@@ -202,11 +212,10 @@ nav ul.menu li a:hover {
     .container1 {
         margin-left: 1320px;
         margin-right: 70px;
-        margin-bottom: 20px;
     }
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 768px) { 
     .main-content h2 {
         font-size: 2em; 
         margin-top: 2%; 
@@ -232,7 +241,7 @@ nav ul.menu li a:hover {
     margin-bottom: 10px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .vmc1 {
         text-align: center;
         color: #0a0372;
@@ -265,7 +274,7 @@ nav ul.menu li a:hover {
     padding: 10px; 
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 768px) { 
     .about2 {
         padding-left: 10px;
     }
@@ -275,7 +284,6 @@ nav ul.menu li a:hover {
     .container3 {
         margin-top: 900px;
     }
-    
 }
 
 
@@ -301,7 +309,7 @@ nav ul.menu li a:hover {
     overflow: hidden; 
     opacity: 0; 
     transform: translateY(-10%); 
-    animation: slide-in-top 0.8s forwards ease-in-out; 
+    animation: slide-in-left 0.8s forwards ease-in-out; 
     transition: box-shadow 0.3s ease; /
 }
 .course-image2 {
@@ -311,7 +319,7 @@ nav ul.menu li a:hover {
     overflow: hidden; 
     opacity: 0; 
     transform: translateY(-10%); 
-    animation: slide-in-top 0.8s forwards ease-in-out; 
+    animation: slide-in-left  0.8s forwards ease-in-out; 
     transition: box-shadow 0.3s ease; 
 }
 .course-image3 {
@@ -321,7 +329,7 @@ nav ul.menu li a:hover {
     overflow: hidden; 
     opacity: 0; 
     transform: translateY(-10%); 
-    animation: slide-in-top 0.8s forwards ease-in-out; 
+    animation: slide-in-left  0.8s forwards ease-in-out; 
     transition: box-shadow 0.3s ease; 
 }
 .course-image4 {
@@ -331,7 +339,7 @@ nav ul.menu li a:hover {
     overflow: hidden; 
     opacity: 0; 
     transform: translateY(-10%); 
-    animation: slide-in-top 0.8s forwards ease-in-out; 
+    animation: slide-in-left  0.8s forwards ease-in-out; 
     transition: box-shadow 0.3s ease;
 }
 .course-image5 {
@@ -341,7 +349,7 @@ nav ul.menu li a:hover {
     overflow: hidden; 
     opacity: 0; 
     transform: translateY(-10%); 
-    animation: slide-in-top 0.8s forwards ease-in-out; 
+    animation: slide-in-left 0.8s forwards ease-in-out; 
     transition: box-shadow 0.3s ease; 
 }
 
@@ -366,7 +374,7 @@ nav ul.menu li a:hover {
     height: 3in; 
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 768px) { 
     .course-image1, .course-image2, .course-image3, .course-image4, .course-image5 {
         width: 3in; 
         height: 4in;
@@ -394,15 +402,15 @@ nav ul.menu li a:hover {
     box-shadow: 0 0 20px 5px rgb(60, 255, 0); 
 }
 
-/* Animation keyframes for sliding in from the top */
-@keyframes slide-in-top {
-    from {
-        opacity: 0; 
-        transform: translateY(-10%); 
+/* Animation keyframes for sliding in from the left */
+@keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(20px); 
     }
-    to {
+    100% {
         opacity: 1;
-        transform: translateY(0); 
+        transform: translateX(-1px); 
     }
 }
 
@@ -422,7 +430,7 @@ nav ul.menu li a:hover {
     gap: 20px; 
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 768px) { 
     .course-name1, .course-name2, .course-name3, .course-name4, .course-name5 {
         width: 3in; 
     }
