@@ -301,8 +301,8 @@ nav ul.menu li a:hover {
 }
 
 .course-image1 {
-    width: 2in; 
-    height: 3in; 
+    width: 3in; 
+    height: 6in; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     opacity: 0; 
@@ -311,8 +311,8 @@ nav ul.menu li a:hover {
     transition: box-shadow 0.3s ease; /
 }
 .course-image2 {
-    width: 2in; 
-    height: 3in; 
+    width: 3in; 
+    height: 6in; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     opacity: 0; 
@@ -321,8 +321,8 @@ nav ul.menu li a:hover {
     transition: box-shadow 0.3s ease; 
 }
 .course-image3 {
-    width: 2in; 
-    height: 3in; 
+    width: 3in; 
+    height: 6in; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     opacity: 0; 
@@ -331,8 +331,8 @@ nav ul.menu li a:hover {
     transition: box-shadow 0.3s ease; 
 }
 .course-image4 {
-    width: 2in; 
-    height: 3in;
+    width: 3in; 
+    height: 6in;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     opacity: 0; 
@@ -341,8 +341,8 @@ nav ul.menu li a:hover {
     transition: box-shadow 0.3s ease;
 }
 .course-image5 {
-    width: 2in; 
-    height: 3in; 
+    width: 3in; 
+    height: 6in; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     opacity: 0; 
@@ -353,23 +353,23 @@ nav ul.menu li a:hover {
 
 .course-image1 img {
     width: 100%; 
-    height: 3in; 
+    height: 6in; 
 }
 .course-image2 img {
     width: 100%; 
-    height: 3in; 
+    height: 6in; 
 }
 .course-image3 img {
     width: 100%; 
-    height: 3in; 
+    height: 6in; 
 }
 .course-image4 img {
     width: 100%; 
-    height: 3in; 
+    height: 6in; 
 }
 .course-image5 img {
     width: 100%; 
-    height: 3in; 
+    height: 6in; 
 }
 
 @media (max-width: 768px) { 
@@ -412,11 +412,10 @@ nav ul.menu li a:hover {
     }
 }
 
-
 .course-name1, .course-name2, .course-name3, .course-name4, .course-name5 {
     font-size: large;
     font-weight: bolder;
-    width: 2in; 
+    width: 3in; 
     height: fit-content;
     flex-direction: column; 
     align-items: center; 
