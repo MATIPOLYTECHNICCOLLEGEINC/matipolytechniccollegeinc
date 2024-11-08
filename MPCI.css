@@ -147,7 +147,6 @@ nav ul.menu li a:hover {
     border-radius: 5px;
     display: inline-block; 
     position: relative;
-    top: 20px;
 }
 
 /* Main Section */
@@ -160,6 +159,7 @@ nav ul.menu li a:hover {
     height: auto;
     margin: 0 auto; 
     overflow: hidden;
+    overflow-y: scroll;
 }
 
 .main-content2 {
@@ -226,7 +226,6 @@ nav ul.menu li a:hover {
         align-items: center;
         justify-content: center; 
     }
-
 }
 
 .vmc1 {
@@ -285,7 +284,6 @@ nav ul.menu li a:hover {
         margin-top: 900px;
     }
 }
-
 
 /* Image box styling */
 .course-images1 {
