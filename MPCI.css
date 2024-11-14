@@ -5,7 +5,6 @@ html, body {
     display: flex;
     flex-direction: column;
     font-family: Century Gothic, Poppins;
-    overflow: hidden;
 }
 
 .main-content, .courses-section, .about-section {
@@ -142,11 +141,44 @@ nav ul.menu li a:hover {
     text-align: center;
     color: #0a0372;
     font-size: 3em;
-    margin: 0px 0px 40px;
+    margin: 10px 0px 10px;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
     line-height: 1;
+}
+
+.maintext2 {
+    color: #0a0372;
+    font-size: 2em;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .maintext2 {
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+.address {
+    text-align: center;
+    font-size: large;
+    color: #0a0372;
+    position: relative;
+    bottom: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .address {
+        text-align: center;
+        padding: 10px;
+    }
 }
 
 /* Main Section */
@@ -156,11 +188,19 @@ nav ul.menu li a:hover {
     align-items: center;
     flex-direction: column; 
     width: 100%;
-    gap: 20px;
-    height: auto;
-    margin: 0 auto; 
-    overflow: hidden;
-    overflow-y: scroll;
+    height: fit-content;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        align-items: center;
+        height: fit-content;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 500px;
+    }
 }
 
 .main-content2 {
@@ -171,11 +211,11 @@ nav ul.menu li a:hover {
     width: 100%; 
     height: auto; 
     margin: 0 auto; 
-    overflow-y: scroll;
 }
 
 .container1 {
     display: block;
+
 }
 
 .container2 {
@@ -201,21 +241,25 @@ nav ul.menu li a:hover {
 @media (max-width: 768px) { 
     .main-content h2 {
         font-size: 2em; 
-        margin-top: 3%; 
-    }
-    .main-content {
-        overflow-x: scroll;
+        margin-top: 3%;
     }
     .main-content2 {
-        overflow-y: scroll;
         align-items: center;
         justify-content: center;
         margin-left: 0;
+        align-items: center;
+        justify-content: center; 
     }
     .container1 {
+        align-content: center;
         margin-left: 1320px;
         margin-right: 70px;
+        margin: 10px;
     }
+    .maintext {
+        font-size: 2em;
+    }
+    
 }
 
 @media (max-width: 768px) { 
@@ -223,18 +267,12 @@ nav ul.menu li a:hover {
         font-size: 2em; 
         margin-top: 2%; 
     }
-
-    .main-content2 {
-        overflow-y: scroll;
-        align-items: center;
-        justify-content: center; 
-    }
 }
 
 .vmc1 {
     text-align: center;
     color: #0a0372;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .vmc {
@@ -247,7 +285,7 @@ nav ul.menu li a:hover {
     .vmc1 {
         text-align: center;
         color: #0a0372;
-        margin-top: 450px;
+        margin-top: 50px;
     }
     .vmc {
         text-align: center;
@@ -264,16 +302,13 @@ nav ul.menu li a:hover {
     margin: 20px;
     top: 5px;
     font-size: 20px;
-    font-style: italic;
 }
 
 .par {
-    margin: 50px;
+    margin: 10px;
     color: #0a0372;
     font-size: 16px; 
     text-align: center; 
-    margin: 0 auto 10px; 
-    padding: 10px; 
 }
 
 @media (max-width: 768px) { 
@@ -281,7 +316,9 @@ nav ul.menu li a:hover {
         padding-left: 10px;
     }
     .par {
-        font-size: 12px; 
+        font-size: 12px;
+        margin: 0px;
+        padding: 10px;
     }
     .container3 {
         margin-top: 900px;
@@ -292,13 +329,23 @@ nav ul.menu li a:hover {
 .course-images1 {
     display: flex; 
     justify-content: center; 
+    padding: 20px;
     gap: 20px; 
-    margin-top: 40px;
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+    .course-images1 {
+        margin-left: 700px;
+    }
+    .course-images2 {
+        margin-left: 700px;
+    }
+}
+
 .course-images2 {
-    display: flex; 
+    display: flex;
+    padding: 20px;
     justify-content: center; 
     gap: 20px; 
     margin-top: 10px;
@@ -306,7 +353,7 @@ nav ul.menu li a:hover {
 
 .course-image1 {
     width: 3in; 
-    height: 5in; 
+    height: 4.5in; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     opacity: 0; 
@@ -316,7 +363,7 @@ nav ul.menu li a:hover {
 }
 .course-image2 {
     width: 3in; 
-    height: 5in; 
+    height: 4.5in; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     opacity: 0; 
@@ -326,7 +373,7 @@ nav ul.menu li a:hover {
 }
 .course-image3 {
     width: 3in; 
-    height: 5in; 
+    height: 4.5in; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     opacity: 0; 
@@ -336,7 +383,7 @@ nav ul.menu li a:hover {
 }
 .course-image4 {
     width: 3in; 
-    height: 5in;
+    height: 4.5in;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     opacity: 0; 
@@ -346,7 +393,7 @@ nav ul.menu li a:hover {
 }
 .course-image5 {
     width: 3in; 
-    height: 5in; 
+    height: 4.5in; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
     opacity: 0; 
@@ -357,29 +404,29 @@ nav ul.menu li a:hover {
 
 .course-image1 img {
     width: 100%; 
-    height: 5in; 
+    height: 4.5in; 
 }
 .course-image2 img {
     width: 100%; 
-    height: 5in; 
+    height: 4.5in; 
 }
 .course-image3 img {
     width: 100%; 
-    height: 5in; 
+    height: 4.5in; 
 }
 .course-image4 img {
     width: 100%; 
-    height: 5in; 
+    height: 4.5in; 
 }
 .course-image5 img {
     width: 100%; 
-    height: 5in; 
+    height: 4.5in; 
 }
 
 @media (max-width: 768px) { 
     .course-image1, .course-image2, .course-image3, .course-image4, .course-image5 {
-        width: 3in; 
-        height: 4in;
+        width: 2in; 
+        height: 3in;
     }
     .course-image1 img, .course-image2 img, .course-image3 img, .course-image4 img, .course-image5 img {
         width: 100%; 
@@ -422,44 +469,72 @@ nav ul.menu li a:hover {
     width: 3in; 
     height: fit-content;
     flex-direction: column; 
-    align-items: center; 
+    align-items: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color:#000000;
 }
 
 .course-name {
     display: flex; 
     justify-content: center; 
-    gap: 20px; 
+    gap: 20px;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+    .course-name {
+        margin-left: 700px;
+    }
     .course-name1, .course-name2, .course-name3, .course-name4, .course-name5 {
-        width: 3in; 
+        width: 2in; 
     }
 .course-name p {
     margin: 5px 5px;
     gap: 5px;
+    text-decoration: none;
 }
 }
 
-.course-name1:hover {
+.course-name1 a:hover {
     color: #ff0000;
 }
-.course-name2:hover {
+.course-name2 a:hover {
     color: #ffe600; 
 }
-.course-name3:hover {
+.course-name3 a:hover {
     color: #ff00c8; 
 }
-.course-name4:hover {
+.course-name4 a:hover {
     color: #003cff; 
 }
-.course-name5:hover {
+.course-name5 a:hover {
     color: #51ff00; 
 }
 
 .mpci2024 {
-    width: 12in;
-    height: 6in;
+    width: 15in;
+    height: 7in;
+    animation: slide-in-Bot 1s forwards ease-in-out; 
+}
+
+@media (max-width: 768px) {
+    .mpci2024 {
+        display: none;
+    }
+}
+
+@keyframes slide-in-Bot {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-1px); 
+    }
 }
 
 .btn {
@@ -677,5 +752,3 @@ color: gray;
     padding-left: 0; 
     margin: 15px 0; 
 }
-
-
