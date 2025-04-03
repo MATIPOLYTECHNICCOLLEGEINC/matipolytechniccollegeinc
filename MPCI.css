@@ -344,6 +344,7 @@ nav ul.menu li a:hover {
 @media (max-width: 768px) {
     .course-images1 {
         margin-left: 700px;
+        margin-bot: 200px;
     }
     .course-images2 {
         margin-left: 700px;
