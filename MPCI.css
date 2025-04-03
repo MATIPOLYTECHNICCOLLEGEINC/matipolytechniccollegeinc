@@ -164,7 +164,7 @@ nav ul.menu li a:hover {
 @media (max-width: 768px) {
     .maintext2 {
         text-align: center;
-        font-size: 1em;
+        font-size: .5em;
     }
 }
 
