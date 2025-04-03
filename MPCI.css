@@ -643,7 +643,7 @@ footer {
     margin-left: auto; 
     margin-right: auto; 
     text-align: left; 
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -659,6 +659,7 @@ h3 {
 @media (max-width: 768px) { 
     .about2 {
         padding-left: 10px;
+        margin-top: 10px;
     }
 }
 
