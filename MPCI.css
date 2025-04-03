@@ -241,12 +241,12 @@ nav ul.menu li a:hover {
     }
 }
 
-.main-content h2 {
+.main-content h3 {
     color: #0a0372;
 }
 
 @media (max-width: 768px) { 
-    .main-content h2 {
+    .main-content h3 {
         font-size: 2em; 
         margin-top: 3%;
     }
