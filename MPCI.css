@@ -154,7 +154,7 @@ nav ul.menu li a:hover {
 
 .maintext2 {
     color: #0a0372;
-    font-size: 2em;
+    font-size: 16px;
     margin: 0px;
     text-align: center;
     padding: 20px;
@@ -195,7 +195,7 @@ nav ul.menu li a:hover {
     width: 100%;
     height: fit-content;
     gap: 10px;
-    margin: 0 auto 100px 0;
+    margin: 0 auto;
     z-index: 1;
 }
 
@@ -206,6 +206,7 @@ nav ul.menu li a:hover {
         overflow-x: scroll;
         overflow-y: hidden;
         height: 500px;
+        margin-bot: 50px;
         z-index: 1;
     }
 }
