@@ -320,9 +320,6 @@ nav ul.menu li a:hover {
 }
 
 @media (max-width: 768px) { 
-    .about2 {
-        padding-left: 10px;
-    }
     .par {
         font-size: 12px;
         margin: 0px;
@@ -646,8 +643,9 @@ footer {
     margin-left: auto; 
     margin-right: auto; 
     text-align: left; 
-    margin-top: 50px;
+    margin-top: 20px;
 }
+
 
 /* Indentation for h3 headings */
 h3 {
@@ -656,6 +654,12 @@ h3 {
     color: #1d027c; 
     margin-left: 50px; 
     margin-bottom: 10px;
+}
+
+@media (max-width: 768px) { 
+    .about2 {
+        padding-left: 10px;
+    }
 }
 
 /* Styling for employee lists */
