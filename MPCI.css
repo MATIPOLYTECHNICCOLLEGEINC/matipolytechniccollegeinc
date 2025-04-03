@@ -5,6 +5,7 @@ html, body {
     display: flex;
     flex-direction: column;
     font-family: Century Gothic, Poppins;
+    overflow-x: hidden; 
 }
 
 .main-content, .courses-section, .about-section {
