@@ -154,7 +154,7 @@ nav ul.menu li a:hover {
 
 .maintext2 {
     color: #0a0372;
-    font-size: 16px;
+    font-size: 1em;
     margin: 0px;
     text-align: center;
     padding: 20px;
@@ -164,7 +164,7 @@ nav ul.menu li a:hover {
 @media (max-width: 768px) {
     .maintext2 {
         text-align: center;
-        font-size: 2em;
+        font-size: 16px;
     }
 }
 
