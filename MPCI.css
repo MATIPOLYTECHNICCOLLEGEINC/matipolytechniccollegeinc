@@ -154,7 +154,7 @@ nav ul.menu li a:hover {
 
 .maintext2 {
     color: #0a0372;
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0px;
     text-align: center;
     padding: 20px;
@@ -648,7 +648,6 @@ footer {
     margin-top: 20px;
 }
 
-
 /* Indentation for h3 headings */
 h3 {
     font-size: 1.3em;
@@ -665,110 +664,3 @@ h3 {
     }
 }
 
-/* Styling for employee lists */
-.employee-list {
-    list-style-type: none; 
-    padding-left: 0; 
-    margin: 15px 0;
-}
-
-.employee-list li {
-    font-size: 1.1em; 
-    padding: 8px 0px; 
-    border-bottom: 1px solid #ddd; 
-    margin-left: 50px; 
-    margin-right: 50px;
-    cursor: pointer; 
-    transition: background-color 0.3s, transform 0.2s ease; 
-    color: #333; 
-    text-decoration: none; 
-    display: block; 
-    border-radius: 5px; 
-}
-
-/* School Heads styling */
-.school-heads li {
-    font-weight: bold; 
-}
-
-ul.employee-list.school-heads li {
-display: flex;
-justify-content: space-between;
-padding: 5px 0; 
-}
-      
-ul.employee-list.school-heads li .name {
-flex-basis: 40%; 
-text-align: left;
-}
-      
-ul.employee-list.school-heads li .position {
-flex-basis: 60%; 
-text-align: left;
-color: gray; 
-}
-
-/* Hover effect: change background color and add slight movement */
-.employee-list li:hover {
-    background-color: #f0f0f0; 
-    transform: scale(1.02); 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-}
-
-/* Styling for staff members */
-.staff li {
-    color: #555; 
-}
-
-ul.employee-list.staff li {
-display: flex;
-justify-content: space-between;
-padding: 5px 0; 
-}
-  
-ul.employee-list.staff li .name {
-flex-basis: 40%; 
-text-align: left;
-}
-  
-ul.employee-list.staff li .position {
-flex-basis: 60%; 
-text-align: left;
-color: gray; 
-}
-
-/* Styling for faculty members */
-.faculty li {
-    color: #333; 
-}
-
-ul.employee-list.faculty li {
-display: flex;
-justify-content: space-between;
-padding: 5px 0; 
-}
-      
-ul.employee-list.faculty li .name {
-flex-basis: 40%; 
-text-align: left;
-}
-      
-ul.employee-list.faculty li .position {
-flex-basis: 60%; 
-text-align: left;
-color: gray; 
-}
-
-
-.employee-list li:last-child {
-    border-bottom: none;
-}
-
-/* Styling for employee lists */
-.employee-list,
-.staff,
-.faculty {
-    list-style-type: none; 
-    padding-left: 0; 
-    margin: 15px 0; 
-}
