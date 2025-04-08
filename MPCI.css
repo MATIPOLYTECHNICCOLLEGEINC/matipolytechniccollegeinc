@@ -39,11 +39,6 @@ header .container {
     margin-left: 40px;
 }
 
-@media (max-width: 768px) {
-    .logo img {margin-left: 20px;
-    }
-}
-
 /* Menu on the right */
 nav ul.menu {
     list-style: none;
@@ -53,50 +48,10 @@ nav ul.menu {
     margin-right: 40px;
 }
 
-@media (max-width: 768px) {
-    nav ul.menu {
-        margin-right: 20px;
-    }
- }
-
-nav ul.menu li {
-    margin: 0 15px;
-}
-
-@media (max-width: 768px) { 
-    nav ul.menu li {
-        margin: 0 10px;
-    }
-}
-
 nav ul.menu li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2em;
-}
-
-/* Keyframes for text animation (fade in and move up) */
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(0px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(20px); 
-    }
-}
-
-/* Keyframes for menu animation (fade in from right) */
-@keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(20px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0); 
-    }
 }
 
 /* Animation for the main content text */
@@ -161,13 +116,6 @@ nav ul.menu li a:hover {
     z-index: 1;
 }
 
-@media (max-width: 768px) {
-    .maintext2 {
-        text-align: center;
-        font-size: 16px;
-    }
-}
-
 .address {
     text-align: center;
     font-size: large;
@@ -177,13 +125,6 @@ nav ul.menu li a:hover {
     height: 20px;
     margin: 0;
     padding: 10px;
-}
-
-@media (max-width: 768px) {
-    .address {
-        text-align: center;
-        padding: 10px;
-    }
 }
 
 /* Main Section */
@@ -197,18 +138,6 @@ nav ul.menu li a:hover {
     gap: 10px;
     margin: 0 auto;
     z-index: 1;
-}
-
-@media (max-width: 768px) {
-    .main-content {
-        align-items: center;
-        height: fit-content;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        height: 500px;
-        margin-bot: 50px;
-        z-index: 1;
-    }
 }
 
 .main-content2 {
@@ -232,51 +161,8 @@ nav ul.menu li a:hover {
     animation: slide-in-Bot 0.8s forwards ease-in-out; 
 }
 
-@keyframes slide-in-Bot {
-    0% {
-        opacity: 0;
-        transform: translateY(-1px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(20px); 
-    }
-}
-
 .main-content h3 {
     color: #0a0372;
-}
-
-@media (max-width: 768px) { 
-    .main-content h3 {
-        font-size: 2em; 
-        margin-top: 3%;
-    }
-    .main-content2 {
-        align-items: center;
-        justify-content: center;
-        margin-left: 0;
-        align-items: center;
-        justify-content: center; 
-    }
-    .container1 {
-        align-content: center;
-        margin-left: 1320px;
-        margin-right: 70px;
-        margin: 10px;
-    }
-    .maintext {
-        font-size: 2em;
-        z-index: 1;
-    }
-    
-}
-
-@media (max-width: 768px) { 
-    .main-content h2 {
-        font-size: 2em; 
-        margin-top: 2%; 
-    }
 }
 
 .vmc1 {
@@ -289,20 +175,6 @@ nav ul.menu li a:hover {
     text-align: center;
     color: #0a0372;
     margin-bottom: 10px;
-}
-
-@media (max-width: 768px) {
-    .vmc1 {
-        text-align: center;
-        color: #0a0372;
-        margin-top: 20px;
-    }
-    .vmc {
-        text-align: center;
-        color: #0a0372;
-        margin-bottom: 10px;
-    }
-    
 }
 
 .main-content h4 {
@@ -321,17 +193,6 @@ nav ul.menu li a:hover {
     text-align: center; 
 }
 
-@media (max-width: 768px) { 
-    .par {
-        font-size: 12px;
-        margin: 0px;
-        padding: 10px;
-    }
-    .container3 {
-        margin-top: 80px;
-    }
-}
-
 /* Image box styling */
 .course-images1 {
     display: flex; 
@@ -340,16 +201,6 @@ nav ul.menu li a:hover {
     gap: 20px;
     margin-top: 90px;
     margin-bottom: 20px;
-}
-
-@media (max-width: 768px) {
-    .course-images1 {
-        margin-left: 700px;
-        margin-bot: 200px;
-    }
-    .course-images2 {
-        margin-left: 700px;
-    }
 }
 
 .course-images2 {
@@ -432,17 +283,6 @@ nav ul.menu li a:hover {
     height: 4.5in; 
 }
 
-@media (max-width: 768px) { 
-    .course-image1, .course-image2, .course-image3, .course-image4, .course-image5 {
-        width: 2in; 
-        height: 3in;
-    }
-    .course-image1 img, .course-image2 img, .course-image3 img, .course-image4 img, .course-image5 img {
-        width: 100%; 
-        height: 100%; 
-    }
-}
-
 /* Hover effect: glowing image */
 .course-image1:hover {
     box-shadow: 0 0 20px 5px rgb(255, 0, 0); 
@@ -458,18 +298,6 @@ nav ul.menu li a:hover {
 }
 .course-image5:hover {
     box-shadow: 0 0 20px 5px rgb(60, 255, 0); 
-}
-
-/* Animation keyframes for sliding in from the left */
-@keyframes slide-in-left {
-    0% {
-        opacity: 0;
-        transform: translateX(20px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(-1px); 
-    }
 }
 
 .course-name p {
@@ -497,13 +325,6 @@ a {
     gap: 20px;
 }
 
-@media (max-width: 768px) {
-    .course-name {
-        margin-left: 700px;
-    }
-    .course-name1, .course-name2, .course-name3, .course-name4, .course-name5 {
-        width: 2in; 
-    }
 .course-name p {
     margin: 5px 5px;
     gap: 5px;
@@ -531,23 +352,6 @@ a {
     width: 12.5in;
     height: 7in;
     animation: slide-in-Bot 1s forwards ease-in-out; 
-}
-
-@media (max-width: 768px) {
-    .mpci2024 {
-        display: none;
-    }
-}
-
-@keyframes slide-in-Bot {
-    0% {
-        opacity: 0;
-        transform: translateY(20px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(-1px); 
-    }
 }
 
 .btn {
@@ -669,10 +473,211 @@ h3 {
     margin-bottom: 10px;
 }
 
+
+
+/* For Responsiveness */
+
+@media (max-width: 768px) {
+    .logo img {margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul.menu {
+        margin-right: 20px;
+    }
+ }
+
+nav ul.menu li {
+    margin: 0 15px;
+}
+
+@media (max-width: 768px) { 
+    nav ul.menu li {
+        margin: 0 10px;
+    }
+}
+
+/* Keyframes for text animation (fade in and move up) */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(0px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(20px); 
+    }
+}
+
+/* Keyframes for menu animation (fade in from right) */
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+@keyframes slide-in-Bot {
+    0% {
+        opacity: 0;
+        transform: translateY(-1px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(20px); 
+    }
+}
+
+@media (max-width: 768px) {
+    .maintext2 {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .address {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        align-items: center;
+        height: fit-content;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 500px;
+        margin-bot: 50px;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 768px) { 
+    .main-content h3 {
+        font-size: 2em; 
+        margin-top: 3%;
+    }
+    .main-content2 {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        align-items: center;
+        justify-content: center; 
+    }
+    .container1 {
+        align-content: center;
+        margin-left: 1320px;
+        margin-right: 70px;
+        margin: 10px;
+    }
+    .maintext {
+        font-size: 2em;
+        z-index: 1;
+    } 
+}
+
+@media (max-width: 768px) { 
+    .main-content h2 {
+        font-size: 2em; 
+        margin-top: 2%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .vmc1 {
+        text-align: center;
+        color: #0a0372;
+        margin-top: 20px;
+    }
+    .vmc {
+        text-align: center;
+        color: #0a0372;
+        margin-bottom: 10px;
+    }   
+}
+
+@media (max-width: 768px) { 
+    .par {
+        font-size: 12px;
+        margin: 0px;
+        padding: 10px;
+    }
+    .container3 {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .course-images1 {
+        margin-left: 700px;
+        margin-bot: 200px;
+    }
+    .course-images2 {
+        margin-left: 700px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .course-image1, .course-image2, .course-image3, .course-image4, .course-image5 {
+        width: 2in; 
+        height: 3in;
+    }
+    .course-image1 img, .course-image2 img, .course-image3 img, .course-image4 img, .course-image5 img {
+        width: 100%; 
+        height: 100%; 
+    }
+}
+
+/* Animation keyframes for sliding in from the left */
+@keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-1px); 
+    }
+}
+
+@media (max-width: 768px) {
+    .course-name {
+        margin-left: 700px;
+    }
+    .course-name1, .course-name2, .course-name3, .course-name4, .course-name5 {
+        width: 2in; 
+}
+
+@keyframes slide-in-Bot {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-1px); 
+    }
+}
+
+@media (max-width: 768px) {
+    .mpci2024 {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) { 
     .about2 {
         padding-left: 10px;
         margin-top: 10px;
     }
 }
+
+
 
