@@ -518,7 +518,7 @@ nav ul.menu li {
         overflow-x: scroll;
         overflow-y: hidden;
         height: 500px;
-        margin-bot: 50px;
+        margin-bottom: 50px;
         z-index: 1;
     }
 }
@@ -581,7 +581,7 @@ nav ul.menu li {
 @media (max-width: 768px) {
     .course-images1 {
         margin-left: 700px;
-        margin-bot: 200px;
+        margin-bottom: 200px;
     }
     .course-images2 {
         margin-left: 700px;
@@ -618,6 +618,7 @@ nav ul.menu li {
         padding-left: 10px;
         margin-top: 10px;
     }
+}
 }
 
     
@@ -679,7 +680,3 @@ nav ul.menu li {
         transform: translateY(-1px); 
     }
 }
-
-
-    
-
