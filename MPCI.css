@@ -498,41 +498,6 @@ nav ul.menu li {
     }
 }
 
-/* Keyframes for text animation (fade in and move up) */
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(0px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(20px); 
-    }
-}
-
-/* Keyframes for menu animation (fade in from right) */
-@keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(20px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0); 
-    }
-}
-
-@keyframes slide-in-Bot {
-    0% {
-        opacity: 0;
-        transform: translateY(-1px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(20px); 
-    }
-}
-
 @media (max-width: 768px) {
     .maintext2 {
         text-align: center;
@@ -635,35 +600,12 @@ nav ul.menu li {
     }
 }
 
-/* Animation keyframes for sliding in from the left */
-@keyframes slide-in-left {
-    0% {
-        opacity: 0;
-        transform: translateX(20px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(-1px); 
-    }
-}
-
 @media (max-width: 768px) {
     .course-name {
         margin-left: 700px;
     }
     .course-name1, .course-name2, .course-name3, .course-name4, .course-name5 {
         width: 2in; 
-}
-
-@keyframes slide-in-Bot {
-    0% {
-        opacity: 0;
-        transform: translateY(20px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(-1px); 
-    }
 }
 
 @media (max-width: 768px) {
@@ -679,5 +621,66 @@ nav ul.menu li {
     }
 }
 
+    
+/* Animation keyframes */
+/* Keyframes for text animation (fade in and move up) */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(0px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(20px); 
+    }
+}
 
+/* Keyframes for menu animation (fade in from right) */
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+@keyframes slide-in-Bot {
+    0% {
+        opacity: 0;
+        transform: translateY(-1px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(20px); 
+    }
+}
+
+/* Animation keyframes for sliding in from the left */
+@keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-1px); 
+    }
+}
+
+@keyframes slide-in-Bot {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-1px); 
+    }
+}
+
+
+    
 
