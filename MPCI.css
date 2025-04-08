@@ -417,7 +417,7 @@ footer {
     margin-bottom: 20px;
 }
 
-p .about {
+.about {
     font-size: 1.1em;
     margin-bottom: 30px; 
     margin-top: 0px;
@@ -428,7 +428,7 @@ p .about {
     text-align: center;
 }
 
-p .about-left {
+.about-left {
     font-size: 1.1em;
     margin-bottom: 30px; 
     margin-top: 0px;
@@ -439,7 +439,7 @@ p .about-left {
     text-align: left;
 }
 
-p .aboutl {
+.aboutl {
     font-size: 1.1em;
     margin-bottom: 100px; 
     margin-top: 10px;
@@ -451,7 +451,7 @@ p .aboutl {
     margin-bottom: 100px;
 }
 
-p .about2 {
+.about2 {
     font-size: 1.1em;
     margin-bottom: 100px; 
     margin-top: 1600px;
