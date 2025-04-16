@@ -185,7 +185,6 @@ nav ul.menu li a:hover {
 }
 
 .par {
-    margin: 10px;
     color: #0a0372;
     font-size: 16px; 
     text-align: center; 
@@ -436,21 +435,21 @@ footer {
     text-align: left;
 }
 
-.aboutl {
+.about1 {
     font-size: 1.1em;
-    margin-bottom: 100px; 
-    margin-top: 10px;
-    line-height: 2; 
+    margin-bottom: 50px; 
+    line-height: 1.6; 
     max-width: 800px; 
     margin-left: auto; 
     margin-right: auto; 
     text-align: center; 
-    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .about2 {
     font-size: 1.1em;
-    margin-bottom: 100px; 
+    margin-bottom: 50px; 
     line-height: 1.6; 
     max-width: 800px; 
     margin-left: auto; 
@@ -563,8 +562,7 @@ nav ul.menu li {
 @media (max-width: 768px) { 
     .par {
         font-size: 12px;
-        margin: 0px;
-        padding: 20px;
+        margin: 0;
     }
 
     .container2 {
@@ -597,6 +595,7 @@ nav ul.menu li {
 
 @media (max-width: 768px) {
     .course-name {
+        display: none;
         margin-left: 700px;
     }
     .course-name1, .course-name2, .course-name3, .course-name4, .course-name5 {
@@ -605,15 +604,15 @@ nav ul.menu li {
 
 @media (max-width: 768px) {
     .mpci2025 {
-        height: 2.5in;
-        width: 3.5in;
+        height: 100%;
+        width: 100%;
     }
 }
 
 @media (max-width: 768px) {
 
     p {
-        padding: 20px;
+        padding: 10px;
     }
     .about {
         padding: 20px;
