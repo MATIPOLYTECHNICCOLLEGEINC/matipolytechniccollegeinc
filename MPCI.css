@@ -578,7 +578,7 @@ nav ul.menu li {
         justify-content: center;
     }
     .course-images2 {
-        margin-left: 700px;
+        margin-left: 630px;
     }
 }
 
@@ -595,8 +595,7 @@ nav ul.menu li {
 
 @media (max-width: 768px) {
     .course-name {
-        display: none;
-        margin-left: 700px;
+        margin-left: 630px;
     }
     .course-name1, .course-name2, .course-name3, .course-name4, .course-name5 {
         width: 2in; 
