@@ -483,11 +483,20 @@ h3 {
 }
 
 @media (max-width: 768px) {
-    header .container {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
+    nav ul.menu {
+        margin-right: 20px;
     }
+ }
+
+nav ul.menu li {
+    margin: 0 15px;
+}
+
+@media (max-width: 768px) { 
+    nav ul.menu li {
+        margin: 0 10px;
+    }
+}
 
 @media (max-width: 768px) {
     .maintext2 {
