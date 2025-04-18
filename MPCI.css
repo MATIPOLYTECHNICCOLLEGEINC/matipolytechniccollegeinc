@@ -516,7 +516,7 @@ nav ul.menu li {
     .main-content {
         height: fit-content;
         overflow-x: scroll;
-        overflow-y: hidden;
+        overflow-y: scroll;
         z-index: 1;
         margin: 20px 0 20px;
     }
