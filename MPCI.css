@@ -24,17 +24,18 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    alight
     z-index: 2;
 }
 
 header .container {
-    justify-content: end;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
 }
 
 /* Logo on the left */
 .logo img {
-    width: 80px; 
+    width: 60px; 
     margin-left: 40px;
 }
 
@@ -42,10 +43,8 @@ header .container {
   display: none;
 }
 
-/* Menu on the right */
-nav {
-}
 
+/* Menu on the right */
 nav ul.menu {
     list-style: none;
     padding: 0;
@@ -558,9 +557,7 @@ h3 {
 }
 
 @media (max-width: 768px) {
-    .logo img {
-        width: 60px;
-        margin-left: 20px;
+    .logo img {margin-left: 20px;
     }
 }
 
