@@ -29,6 +29,7 @@ header {
 }
 
 header .container {
+    justify-content: end;
 }
 
 /* Logo on the left */
