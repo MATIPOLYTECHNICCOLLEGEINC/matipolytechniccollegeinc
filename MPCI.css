@@ -24,13 +24,11 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    alight
     z-index: 2;
 }
 
 header .container {
-    display: flex;
-    justify-content: space-between; 
-    align-items: right;
 }
 
 /* Logo on the left */
