@@ -28,8 +28,7 @@ header {
 }
 
 header .container {
-    display: flex;
-    justify-content: space-between; 
+    display: block;
 }
 
 /* Logo on the left */
