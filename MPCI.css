@@ -568,7 +568,7 @@ body {
 
 @media (max-width: 768px) {
   .logo img {
-  right: 20px;
+  right: 10px;
   width: 60px;
   }
 }
