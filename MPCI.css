@@ -43,10 +43,12 @@ header .container {
   display: none;
 }
 
-
 /* Menu on the right */
-nav ul.menu {
+nav {
     right: 40px;
+}
+
+nav ul.menu {
     list-style: none;
     padding: 0;
     margin: 0;
