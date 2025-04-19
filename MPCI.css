@@ -39,6 +39,11 @@ header .container {
     margin-left: 40px;
 }
 
+.sidebar {
+  display: none;
+}
+
+
 /* Menu on the right */
 nav ul.menu {
     list-style: none;
