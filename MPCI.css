@@ -39,7 +39,6 @@ header .container {
   width: 80px;
   top: 10px;
   left: 40px;
-  justify-content: start;
 }
 
 .sidebar {
@@ -569,8 +568,7 @@ body {
 
 @media (max-width: 768px) {
   .logo img {
-    width: 60px;
-    margin-left: 20px;
+  width: 60px;
   }
 }
 
