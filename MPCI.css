@@ -28,7 +28,7 @@ header {
 }
 
 header .container {
-    display: block;
+    display: inline-block;
 }
 
 /* Logo on the left */
