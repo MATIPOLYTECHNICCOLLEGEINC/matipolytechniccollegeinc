@@ -46,6 +46,7 @@ header .container {
 
 /* Menu on the right */
 nav ul.menu {
+    right: 40px;
     list-style: none;
     padding: 0;
     margin: 0;
