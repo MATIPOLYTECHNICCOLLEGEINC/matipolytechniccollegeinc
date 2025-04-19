@@ -568,8 +568,9 @@ body {
 }
 
 @media (max-width: 768px) {
-   width: 60px;
-  .logo img {margin-left: 20px;
+  .logo img {
+    width: 60px;
+    margin-left: 20px;
   }
 }
 
