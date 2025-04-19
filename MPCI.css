@@ -30,7 +30,7 @@ header {
 header .container {
     display: flex;
     justify-content: space-between; 
-    align-items: center;
+    align-items: right;
 }
 
 /* Logo on the left */
