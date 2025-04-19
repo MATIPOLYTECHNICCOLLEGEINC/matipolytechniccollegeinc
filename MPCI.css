@@ -555,6 +555,7 @@ h3 {
 }
 
 @media (max-width: 768px) {
+     width: 60px;
     .logo img {margin-left: 20px;
     }
 }
