@@ -199,6 +199,7 @@ nav ul.menu li a:hover {
 }
 
 .par {
+  display: block;
   color: #0a0372;
   font-size: 16px; 
   text-align: center; 
@@ -610,7 +611,7 @@ nav ul.menu li {
 
 @media (max-width: 768px) {
   .main-content {
-      height: 2in;
+      height: 1.5in;
       overflow-x: scroll;
       overflow-y: hidden;
       z-index: 1;
