@@ -144,10 +144,9 @@ nav ul.menu li a:hover {
 
 /* Main Section */
 .main-content {
+  display: block;
   text-align: center;
-  display: flex;
   align-items: center;
-  flex-direction: column; 
   width: 100%;
   height: fit-content;
   gap: 10px;
