@@ -621,11 +621,11 @@ nav ul.menu li {
 
 @media (max-width: 768px) { 
   .main-content h3 {
-      font-size: 2em; 
+      font-size: 1.8em; 
       margin-top: 3%;
   }
   .maintext {
-      font-size: 2em;
+      font-size: 12px;
       z-index: 1;
   } 
 }
