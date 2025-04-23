@@ -38,7 +38,7 @@ header .container {
   position: absolute;
   width: 80px;
   top: 10px;
-  left: 40px;
+  left: 20px;
 }
 
 .sidebar {
@@ -568,7 +568,7 @@ body {
 
 @media (max-width: 768px) {
   .logo img {
-  right: 10px;
+  left: 20px;
   width: 60px;
   }
 }
