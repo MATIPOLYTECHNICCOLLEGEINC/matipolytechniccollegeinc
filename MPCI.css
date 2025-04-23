@@ -369,7 +369,7 @@ a {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
-  margin: 40px auto 10px; 
+  margin: 40px auto 20px; 
   display: inline-block; 
   position: relative;
 }
@@ -590,6 +590,13 @@ nav ul.menu li {
 }
 
 @media (max-width: 768px) {
+    .maintext {
+      font-size: 1.3em;
+      z-index: 1;
+    }
+    .address {
+    font-size: 12px;
+  }
   .maintext2 {
       text-align: center;
       font-size: 16px;
@@ -624,10 +631,6 @@ nav ul.menu li {
       font-size: 1.8em; 
       margin-top: 3%;
   }
-  .maintext {
-      font-size: 12px;
-      z-index: 1;
-  } 
 }
 
 @media (max-width: 768px) { 
