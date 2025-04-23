@@ -610,7 +610,6 @@ nav ul.menu li {
 
 @media (max-width: 768px) {
   .main-content {
-      height: fit-content;
       overflow-x: scroll;
       overflow-y: hidden;
       z-index: 1;
