@@ -7,11 +7,6 @@ function toggleSidebar() {
   }
 }
 
-  if (currentRight === '0px') {
-    sidebar.style.right = '0px';
-   toggleBtn.textContent = 'CLOSE';
-}
-
 document.body.addEventListener('click', function (event) {
   const sidebar = document.getElementById('sidebar');
   const toggleBtn = document.getElementById('toggleBtn');
