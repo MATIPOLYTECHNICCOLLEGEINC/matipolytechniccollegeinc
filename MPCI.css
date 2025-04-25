@@ -712,6 +712,20 @@ nav ul.menu li {
     
 /* Animation keyframes */
 /* Keyframes for text animation (fade in and move up) */
+
+/* Animate to X when active */
+#toggleBtn.active .top {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+#toggleBtn.active .middle {
+  opacity: 0;
+}
+
+#toggleBtn.active .bottom {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
 @keyframes fadeInUp {
     0% {
         opacity: 0;
