@@ -502,7 +502,7 @@ h3 {
     width: 30px;
     cursor: pointer;
     margin: 20px;
-    z-index: 1;
+    z-index: 0;
     position: relative;
     position: fixed;
     top: 5px;
