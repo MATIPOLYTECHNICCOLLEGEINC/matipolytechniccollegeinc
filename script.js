@@ -7,3 +7,9 @@ function toggleSidebar() {
   }
 }
 
+function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+  if (sidebar.style.right === '-150px') {
+    sidebar.style.right = '0px';
+}
+
