@@ -7,7 +7,7 @@ function toggleSidebar() {
   }
 }
 
-function toggleSidebar() {
+function closeSidebar() {
     const sidebar = document.getElementById('sidebar');
   if (sidebar.style.right === '-150px') {
     sidebar.style.right = '0px';
