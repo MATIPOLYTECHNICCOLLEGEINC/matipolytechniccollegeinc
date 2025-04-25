@@ -562,7 +562,8 @@ h3 {
 @media (max-width: 768px) {
     .logo img {
         width: 50px;
-        margin-left: 20px;
+        margin: 5px;
+        margin-left: 30px;
     }
 }
 
