@@ -502,7 +502,7 @@ h3 {
     width: 30px;
     cursor: pointer;
     margin: 20px;
-    z-index: 1001;
+    z-index: 0;
     position: relative;
     position: fixed;
     top: 5px;
@@ -521,11 +521,11 @@ h3 {
   .sidebar {
     display: block;
     height: 100vh;
-    width: 100px;
+    width: 150px;
     background-color: #0a0372;
     position: fixed;
     top: 0;
-    right: -100px;
+    right: -150px;
     transition: 0.4s ease;
     padding-top: 80px;
     z-index: 1;
@@ -618,14 +618,14 @@ nav ul.menu li {
         margin-top: 3%;
     }
     .maintext {
-        font-size: 2em;
+        font-size: 1.5em;
         z-index: 1;
     } 
 }
 
 @media (max-width: 768px) { 
     .main-content h2 {
-        font-size: 2em; 
+        font-size: 1.5em; 
         margin-top: 2%; 
     }
 }
