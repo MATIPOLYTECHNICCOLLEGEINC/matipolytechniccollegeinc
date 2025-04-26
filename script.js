@@ -6,3 +6,9 @@ function toggleSidebar() {
     sidebar.style.right = '0px';
   }
 }
+
+function closeSidebar() {
+  else {
+    sidebar.style.right = '0px';
+  }
+}
