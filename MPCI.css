@@ -54,7 +54,6 @@ nav ul.menu {
     padding: 0;
     margin: 0;
     display: flex;
-    margin-right: 40px;
 }
 
 nav ul.menu li a {
@@ -119,10 +118,8 @@ nav ul.menu li a:hover {
 .maintext2 {
     color: #0a0372;
     font-size: 1.5em;
-    margin: 0px;
     text-align: center;
     padding: 20px;
-    z-index: 1;
 }
 
 .address {
@@ -138,6 +135,18 @@ nav ul.menu li a:hover {
 
 /* Main Section */
 .main-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+    height: fit-content;
+    gap: 10px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.main-content1 {
     text-align: center;
     display: flex;
     align-items: center;
@@ -197,6 +206,7 @@ nav ul.menu li a:hover {
     color: #0a0372;
     font-size: 16px; 
     text-align: center; 
+    margin: 0 0 40px 0 ;
 }
 
 /* Image box styling */
@@ -352,8 +362,10 @@ a {
 }
 
 .mpci2025 {
-    width: 12.5in;
-    height: 7in;
+    width: 14.2in;
+    height: 7.2in;
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
     animation: slide-in-Bot 1s forwards ease-in-out; 
 }
 
@@ -486,7 +498,7 @@ h3 {
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: Century gothic, Arial, sans-serif;
   }
   
   /* Hamburger Icon */
@@ -512,8 +524,8 @@ h3 {
   /* Sidebar */
   span {
     position: absolute;
-    top: 30px;
-    right: 20px;
+    top: 28px;
+    right: 25px;
   }
 
   .sidebar {
@@ -600,8 +612,15 @@ nav ul.menu li {
         height: fit-content;
         z-index: 1;
         margin: 20px 0 20px;
+    }
+
+    .main-content1 {
+        height: fit-content;
+        z-index: 1;
+        margin: 20px 0 20px;
         overflow-x: scroll;
     }
+
     .main-content2 {
         align-items: center;
         justify-content: center;
@@ -609,8 +628,9 @@ nav ul.menu li {
         justify-content: center;
     }
     .mpci {
-        margin: 30px 0 0 0;
+        margin: 10px 0 0 0;
     }
+
 }
 
 @media (max-width: 768px) { 
@@ -626,8 +646,7 @@ nav ul.menu li {
 
 @media (max-width: 768px) { 
     .main-content h2 {
-        font-size: 1.5em; 
-        margin-top: 2%; 
+        font-size: 1.2em;
     }
 }
 
@@ -646,8 +665,7 @@ nav ul.menu li {
 
 @media (max-width: 768px) { 
     .par {
-        font-size: 12px;
-        margin: 0;
+        font-size: 14px;
     }
 
     .container2 {
@@ -690,6 +708,7 @@ nav ul.menu li {
     .mpci2025 {
         height: 100%;
         width: 100%;
+        border-radius: 0px;
     }
 }
 
