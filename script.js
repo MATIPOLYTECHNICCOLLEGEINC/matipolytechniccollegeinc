@@ -7,8 +7,8 @@ function toggleSidebar() {
   }
 }
 
-//function closeSidebar() {
-  //else {
-    //sidebar.style.right = '0px';
+function closeSidebar() {
+  const sidebar = document.getElementById('sidebar');
+    sidebar.style.right = '0px';
   }
 }
