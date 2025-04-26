@@ -45,6 +45,7 @@ header .container {
 
 /* Menu on the right */
 nav {
+    position: absolute;
     right: 40px;
 }
 
