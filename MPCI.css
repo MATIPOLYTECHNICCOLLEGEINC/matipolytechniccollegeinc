@@ -66,7 +66,7 @@ nav ul.menu li a {
 .main-content h2,
 .main-content p {
     opacity: 0;
-    animation: fadeInUp 1.5s ease forwards;
+    animation: fadeInDown 1.5s ease forwards;
 }
 
 /* Delay the paragraph animation slightly for a staggered effect */
@@ -366,7 +366,7 @@ a {
     height: 7.2in;
     margin: 20px 0 20px 0;
     border-radius: 10px;
-    animation: slide-in-Bot 1s forwards ease-in-out; 
+    animation: slide-in-Top 1s forwards ease-in-out; 
 }
 
 .btn {
@@ -458,6 +458,7 @@ footer {
     text-align: center; 
     margin-top: 20px;
     padding: 20px;
+    animation: fadeInDown 1.5s ease forwards;
 }
 
 .about2 {
@@ -470,6 +471,7 @@ footer {
     text-align: left; 
     margin-top: 20px;
     padding: 20px;
+    animation: fadeInDown 1.5s ease forwards;
 }
 
 /* Indentation for h3 headings */
@@ -745,7 +747,7 @@ nav ul.menu li {
   transform: rotate(-45deg) translate(7px, -7px);
 }
 
-@keyframes fadeInUp {
+@keyframes fadeInDown {
     0% {
         opacity: 0;
         transform: translateY(0px); 
@@ -768,7 +770,7 @@ nav ul.menu li {
     }
 }
 
-@keyframes slide-in-Bot {
+@keyframes slide-in-Top {
     0% {
         opacity: 0;
         transform: translateY(-1px); 
@@ -791,13 +793,13 @@ nav ul.menu li {
     }
 }
 
-@keyframes slide-in-Bot {
+@keyframes slide-in-Top {
     0% {
         opacity: 0;
-        transform: translateY(20px); 
+        transform: translateY(-1px); 
     }
     100% {
         opacity: 1;
-        transform: translateY(-1px); 
+        transform: translateY(20px); 
     }
 }
