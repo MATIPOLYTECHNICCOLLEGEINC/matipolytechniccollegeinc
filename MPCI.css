@@ -364,7 +364,7 @@ a {
 .mpci2025 {
     width: 14.2in;
     height: 7.2in;
-    margin: 5px;
+    margin: 5px 0 5px 0;
     border-radius: 10px;
     animation: slide-in-Top 1s forwards ease-in-out; 
 }
