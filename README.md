@@ -10,4 +10,4 @@ The school was unable and is currently struggling to keep with the development o
 
 With my curiosity and eagerness to learn programming even in the basic way, I lend my dedication to learn to help develop a basic page that can show off the school's Market. A platform that will serve as point of reference for all exploring something new and looking for opportunities in terms of education.
 
-This page is still improving and developing.
+This page is still improving and developing, please bare with us and please support.
