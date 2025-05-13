@@ -488,7 +488,7 @@ footer {
 h3 {
     font-size: 1.3em;
     margin-top: 10px;
-    color: #1d027c; 
+    color: #0a0372; 
     margin-left: 50px; 
     margin-bottom: 10px;
 }
@@ -577,7 +577,7 @@ h3 {
   }
   
   .sidebar ul li:hover {
-    background-color: #31a0f5;
+    background-color: #0a0372;
   }
   
 }
