@@ -160,6 +160,18 @@ nav ul.menu li a:hover {
     z-index: 1;
 }
 
+.main-content-course {
+    place-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    z-index: 1;
+}
+
 .main-content1 {
     text-align: center;
     display: flex;
