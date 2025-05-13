@@ -1,7 +1,7 @@
 html, body {
-    background-color: smoke-white;
     height: 100%;
     margin: 0;
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     font-family: Century Gothic, Poppins;
@@ -107,20 +107,7 @@ nav ul.menu li a:hover {
     text-align: center;
     color: #0a0372;
     font-size: 2.5em;
-    margin: 130px 0px 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    line-height: 1;
-    z-index: 1;
-}
-
-.vp {
-    font-style: Poppins;
-    text-align: center;
-    color: #0084ff;
-    font-size: 2.1em;
-    margin: 10px;
+    margin: 110px 0px 10px;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
@@ -151,21 +138,11 @@ nav ul.menu li a:hover {
 .main-content {
     place-content: center;
     text-align: center;
-    align-items: center;
-    width: 100%;
-    height: fit-content;
-    margin: 0 auto;
-    z-index: 1;
-}
-
-.main-content-course {
-    align-items: center;
-    text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: fit-content;
-    height: 1000px;
+    width: 100%;
+    height: fit-content;
     margin: 0 auto;
     z-index: 1;
 }
@@ -210,7 +187,7 @@ nav ul.menu li a:hover {
 .vmc1 {
     text-align: center;
     color: #0a0372;
-    margin: 40px 0 10px 0;
+    margin-top: 70px;
 }
 
 .vmc {
@@ -268,7 +245,7 @@ nav ul.menu li a:hover {
         overflow-x: auto;
         scroll-behavior: smooth;
         gap: 1rem;
-        padding: 30px 30px;
+        padding: 20px 30px;
     }
 
     .course-images2 img {
@@ -334,21 +311,9 @@ a {
     color:#000000;
 }
 
-.mpci {
-    place-self: center;
-}
-
 .mpci2025 {
     width: 14in;
     height: 10in;
-    margin: 5px 0 5px 0;
-    border-radius: 10px;
-    animation: slide-in-Top 1s forwards ease-in-out; 
-}
-
-.mpcihs {
-    width: 8in;
-    height: 6in;
     margin: 5px 0 5px 0;
     border-radius: 10px;
     animation: slide-in-Top 1s forwards ease-in-out; 
@@ -412,7 +377,7 @@ a {
 
 /* Footer Section */
 footer {
-    background-color: #000000;
+    background-color: #0a0372;
     color: #ff0000;
     font-weight: bold;
     text-align: center;
@@ -491,8 +456,8 @@ footer {
     margin-left: auto; 
     margin-right: auto; 
     text-align: left; 
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 20px;
+    padding: 20px;
     animation: fadeInDown 1.5s ease forwards;
 }
 
@@ -589,7 +554,7 @@ h3 {
   }
   
   .sidebar ul li:hover {
-    background-color: #0a0372;
+    background-color: #31a0f5;
   }
   
 }
@@ -625,6 +590,11 @@ nav ul.menu li {
 }
 
 @media (max-width: 768px) {
+    .maintext {
+        font-size: 1.3em;
+        z-index: 1;
+    } 
+
     .maintext2 {
         text-align: center;
         font-size: 16px;
@@ -633,6 +603,7 @@ nav ul.menu li {
 
 @media (max-width: 768px) {
     .address {
+        font-size: medium;
         text-align: center;
         padding: 10px;
     }
@@ -659,7 +630,7 @@ nav ul.menu li {
         justify-content: center;
     }
     .mpci {
-        margin: 10px 0 0 0;
+        margin: 0;
     }
 
 }
@@ -669,10 +640,6 @@ nav ul.menu li {
         font-size: 2em; 
         margin-top: 3%;
     }
-    .maintext {
-        font-size: 1.5em;
-        z-index: 1;
-    } 
 }
 
 @media (max-width: 768px) { 
@@ -696,7 +663,15 @@ nav ul.menu li {
 
 @media (max-width: 768px) { 
     .par {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .requirements {
+        background-color: #0084ff;
+        color:#ffffff;
+        text-align: center;
+        height: 150px;
+        width: 100%;
     }
 
     .container2 {
