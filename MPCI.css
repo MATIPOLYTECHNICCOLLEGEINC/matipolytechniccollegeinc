@@ -335,7 +335,7 @@ a {
 }
 
 .mpci {
-    place-content: center;
+    place-self: center;
 }
 
 .mpci2025 {
