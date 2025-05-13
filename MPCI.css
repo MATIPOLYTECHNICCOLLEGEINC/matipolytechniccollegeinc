@@ -165,7 +165,7 @@ nav ul.menu li a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 2000px;
+    width: fit-content;
     height: 1000px;
     margin: 0 auto;
     z-index: 1;
@@ -269,7 +269,7 @@ nav ul.menu li a:hover {
         overflow-x: auto;
         scroll-behavior: smooth;
         gap: 1rem;
-        padding: 10px 0;
+        padding: 30px 30px;
     }
 
     .course-images2 img {
