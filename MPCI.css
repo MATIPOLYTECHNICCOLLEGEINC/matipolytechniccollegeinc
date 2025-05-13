@@ -161,7 +161,7 @@ nav ul.menu li a:hover {
 }
 
 .main-content-course {
-    place-content: center;
+    align-items: center;
     text-align: center;
     display: flex;
     flex-direction: row;
