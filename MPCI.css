@@ -104,6 +104,18 @@ nav ul.menu li a:hover {
 }
 
 .maintext {
+    text-align: center;
+    color: #0a0372;
+    font-size: 2.5em;
+    margin: 130px 0px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 1;
+    z-index: 1;
+}
+
+.vp {
     font-style: Poppins;
     text-align: center;
     color: #0a0372;
