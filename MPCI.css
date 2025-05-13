@@ -166,7 +166,7 @@ nav ul.menu li a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 2000px;
     height: fit-content;
     margin: 0 auto;
     z-index: 1;
