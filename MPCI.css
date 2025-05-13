@@ -348,6 +348,14 @@ a {
     animation: slide-in-Top 1s forwards ease-in-out; 
 }
 
+.mpcihs {
+    width: 8in;
+    height: 6in;
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
+    animation: slide-in-Top 1s forwards ease-in-out; 
+}
+
 .btn {
     background-color: #0a0372;
     color: #fff;
