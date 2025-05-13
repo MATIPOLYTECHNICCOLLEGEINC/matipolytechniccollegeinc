@@ -151,8 +151,6 @@ nav ul.menu li a:hover {
 .main-content {
     place-content: center;
     text-align: center;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     width: 100%;
     height: fit-content;
