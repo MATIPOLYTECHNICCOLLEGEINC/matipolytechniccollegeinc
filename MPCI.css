@@ -405,9 +405,9 @@ a {
 .btn3 {
     background-color:#0a0372;
     color: #fff;
-    padding: 15px 200px;
+    padding: 15px 100px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 55px;
     margin: 10px auto 20px; 
     display: inline-block; 
     position: relative;
@@ -416,9 +416,9 @@ a {
 .btn4 {
     background-color:#c70202;
     color: #fff;
-    padding: 15px 200px;
+    padding: 15px 100px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 55px;
     margin: 10px auto 20px; 
     display: inline-block; 
     position: relative;
@@ -526,8 +526,7 @@ footer {
 h3 {
     font-size: 1.3em;
     margin-top: 10px;
-    color: #0a0372; 
-    margin-left: 50px; 
+    color: #0a0372;
     margin-bottom: 10px;
 }
 
@@ -742,16 +741,19 @@ nav ul.menu li {
 }
 
 @media (max-width: 768px) {
-    .vmc1 {
-        text-align: center;
-        color: #0a0372;
-        margin-top: 20px;
-    }
     .vmc {
         text-align: center;
         color: #0a0372;
+        margin-top: 10px;
         margin-bottom: 10px;
-    }   
+    }
+
+    .vmc1 {
+        color: #0a0372;
+        margin-top: 20px;
+        text-align: left;
+    }
+  
 }
 
 @media (max-width: 768px) { 
@@ -772,6 +774,7 @@ nav ul.menu li {
     }
     .container3 {
         margin-top: 20px;
+        padding: 20px;
     }
 }
 
@@ -833,10 +836,12 @@ nav ul.menu li {
     .btn3 {
         background-color: #0a0372;
         padding: 5px;
+        margin-left: 20px;
     }
     .btn4 {
         background-color: #ff0000;
         padding: 5px;
+        margin-left: 5px;
     }
 }
 
@@ -852,6 +857,7 @@ nav ul.menu li {
         padding-left: 10px;
         margin-top: 10px;
         padding: 20px;
+        font-size: 18px;
     }
 }
 }
