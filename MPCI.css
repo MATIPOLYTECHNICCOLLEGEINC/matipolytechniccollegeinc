@@ -8,6 +8,16 @@ html, body {
     overflow-x: hidden;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('FACIL.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .main-content, .courses-section, .about-section {
     flex: 1; 
     background-position: center;
@@ -183,6 +193,7 @@ nav ul.menu li a:hover {
     place-content: center;
     margin-top: 10px;
     overflow: hidden;
+    width: 1200px;
 }
 
 .container2 {
@@ -326,7 +337,7 @@ a {
     height: 6in;
     width: 9in;
     padding: 10px;
-    align-content: center;
+    place-self: center;
 }
 
 .mpci {
