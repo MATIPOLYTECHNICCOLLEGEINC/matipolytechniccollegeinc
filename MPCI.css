@@ -465,6 +465,10 @@ a {
     background-color: #00c3ff;
 }
 
+.btn_prog:hover {
+    background-color: #ff0000;
+}
+
 .course-list {
     list-style: none;
 }
