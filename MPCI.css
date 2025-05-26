@@ -229,7 +229,7 @@ nav ul.menu li a:hover {
 }
 
 .options {
-    padding: 2px;
+    padding: 8px;
     place-self: center;
     display: flex;
     flex-direction: row;
