@@ -477,7 +477,7 @@ a {
 /* Footer Section */
 footer {
     background-color: #0084ff;
-    color: #ff0000;
+    color: white;
     font-weight: bold;
     text-align: center;
     flex-shrink: 0;
