@@ -348,7 +348,7 @@
             z-index: 1;
         }
 
-        .course-images {
+        .course-images_1 {
             display: flex;
             overflow-x: auto;
             width: 1300px;
@@ -356,6 +356,26 @@
             gap: 1rem;
             padding: 30px 30px;
         }
+
+        .course-images_2 {
+            display: flex;
+            overflow-x: auto;
+            width: 650px;
+            scroll-behavior: smooth;
+            gap: 1rem;
+            padding: 30px 30px;
+        }
+
+        .course-images_1 img {
+            width: 100%; 
+            height: 100%; 
+        }
+
+        .course-images_2 img {
+            width: 100%; 
+            height: 100%; 
+        }
+
 
         .course-image1:hover {
             box-shadow: 0 0 20px 5px rgb(255, 0, 0); 
@@ -371,11 +391,6 @@
         }
         .course-image5:hover {
             box-shadow: 0 0 20px 5px rgb(0, 255, 0); 
-        }
-
-        .course-images img {
-            width: 100%; 
-            height: 100%; 
         }
 
         .btn {
@@ -410,7 +425,7 @@
         }
 
         .btn2:hover {
-            background-color:#0171da;
+            background-color:#da0101;
         }
 
         .content2 {
@@ -508,7 +523,7 @@
         <img src="logo.png" class="logo2">
         <img src="MPCI.png" class="mpci">
         <h1 class="since">SINCE 1992</h1>
-        <a href="a.html" title="Click to submit an Online enrollment form" class="btn2"><b>Learn more</b></a>
+        <a href="#college_program" class="btn2"><b>See Programs</b></a>
     </div>
     <div class="spacer1">
         <h2>
@@ -518,7 +533,7 @@
     <h2 class="announcement">ANNOUNCEMENTS</h2>
     <div class="main-content">
         <div class="content1">
-            <img src="ads2.png">
+            <img src="ads.png">
             <div class="let">
                 <p>MPCI provide high-quality education through our skilled faculty and comprehensive courses designed
                     to prepare students for their future.
@@ -530,11 +545,11 @@
             <h2>Scholarship programs are being offered including CHED TES Grantees for qualified college students,<br>
                 and the Voucher Program from the Department of Education for all high school students.
             </h2>
-            <a href="a.html" title="Click to submit an Online enrollment form" class="btn"><b>See Programs</b></a>
+            <a href="#" class="btn"><b>Learn more</b></a>
     </div>
     <div class="feature-content">
-        <h1>PROGRAMS OFFERED</h1>
-        <div class="course-images">
+        <h1>COLLEGE PROGRAMS</h1>
+        <div class="course-images_1" id="college_program">
             <div class="course-image1">
                 <a href="https://www.facebook.com/profile.php?id=61550505056812" title="Click to go to their Official page" target="_blank"><img src="6.png" alt="Course 1"></a>
             </div>
@@ -547,8 +562,14 @@
             <div class="course-image4">
                 <a href="https://www.facebook.com/profile.php?id=100089457577165" title="Click to go to their Official page" target="_blank"><img src="9.png" alt="Course 4"></a>
             </div>
+        </div>
+        <h1>HIGH SCHOOL PROGRAMS</h1>
+        <div class="course-images_2">
             <div class="course-image5">
-                <a href="https://www.facebook.com/profile.php?id=100089457577165" title="Click to go to their Official page" target="_blank"><img src="10.png" alt="Course 4"></a>
+                <a href="https://www.facebook.com/profile.php?id=100089457577165" title="Click to go to their Official page" target="_blank"><img src="11.png" alt="Course 1"></a>
+            </div>
+            <div class="course-image2">
+                <a href="https://www.facebook.com/profile.php?id=100089457577165" title="Click to go to their Official page" target="_blank"><img src="12.png" alt="Course 2"></a>
             </div>
         </div>
         <h2>Build your Future Career with us!</h2>
