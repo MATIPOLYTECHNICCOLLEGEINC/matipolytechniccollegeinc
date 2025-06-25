@@ -1,6 +1,6 @@
 Hi there 👋 It's Jeo.
 
-This page is a learning project, built with the basic and most common language in programing and web development, the HTML, CSS and some functions of JavaScript functions.
+This page is a learning project, built with the basic and most common language in programing and web development, the HTML, CSS and some JavaScript functions.
 
 The website was build and coded from scratch. As I go deeper understanding about the programming and the language I used, the page keeps its progress and new Integrated factions. 
 
