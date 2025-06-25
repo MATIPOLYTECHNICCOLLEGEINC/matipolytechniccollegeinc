@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPCI - HOME</title>
+    <link rel="icon" href="MPCI NEW LOGO.png" type="image/x-icon">
+    <style>
+        html {
+            width: 100%;
+        }
+        body {
+            display: block;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            font-family: 'Arial Narrow Bold',Century Gothic;
+            background-image: url('FACIL.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+
+        .logo1 {
+            display: block;
+            width: 50px;
+            margin-left: 40px;
+        }
+
+        .navtab {
+            display: block;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: white;
+        }
+
+        .tab {
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+            margin-right: 40px;
+            gap: 10px;
+            list-style: none;
+            text-decoration: none;
+            align-items: center;
+        }
+
+        .tab ul {
+            margin: 0;
+        }
+
+        .tab li {
+            place-content: center;
+            height: 20px;
+        }
+        
+        .tab a {
+            text-decoration: none;
+            color: #0a0372;
+            padding: 10px;
+        }
+
+        .maintab:hover {
+            background-color:whitesmoke;
+        }
+
+        .welcometab {
+            display: block;
+            width: 100%;
+            height: 100px;
+            color: white;
+            text-align: center;
+            place-content: center;
+            background-color: #0a0372;
+        }
+
+        .welcometext {
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .navtab2 {
+            display: flex;
+            width: 100%;
+            height: fit-content;
+            justify-content: center;
+            background-color: whitesmoke;
+            color: #0a0372;
+        }
+
+        .tab2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .tab2 li {
+            place-content: center;
+            padding: 10px;
+            text-align: center;
+            list-style: none;
+        }
+
+        .tab2 li:hover {
+            color: white;
+        }
+        
+        .tab2 a {
+            padding: 10px;
+            text-decoration: none;
+            color: #0a0372;
+        }
+
+        .tab2 a:hover {
+            background-color: #0084ff;
+            color: white;
+        }
+
+        .programs1:hover .programs_list1 {
+            display: block;
+        }
+
+        .programs_list1 {
+            display: none;
+            position: absolute;
+            top: 55px;
+            right: 6px;
+            width: fit-content;
+            height: fit-content;
+            padding: 10px;
+            background-color: #0084ff;
+            color: white;
+            font-size: 12px;
+        }
+
+        .programs_list1 ul {
+            padding: 10px;
+        }
+
+        .programs_list1 li {
+            list-style: none;
+            padding: 5px;
+        }
+
+        .programs_list1 li:hover {
+            background-color:#00a2ff;
+        }
+
+        .programs2:hover .programs_list2 {
+            display: block;
+        }
+
+        .programs_list2 {
+            display: none;
+            position: absolute;
+            top: 55px;
+            right: 2px;
+            width: fit-content;
+            height: fit-content;
+            padding: 10px;
+            background-color: #0084ff;
+            color: white;
+            font-size: 12px;
+        }
+
+        .programs_list2 li {
+            list-style: none;
+            padding: 5px;
+        }
+
+        .programs_list2 li:hover {
+            background-color:#00a2ff;
+        }
+
+        .programs3:hover .programs_list3 {
+            display: block;
+        }
+
+        .programs_list3 {
+            display: none;
+            position: absolute;
+            top: 55px;
+            right: 36px;
+            width: 60px;
+            height: fit-content;
+            padding: 10px;
+            background-color: #0084ff;
+            color: white;
+            font-size: 12px;
+        }
+
+        .programs_list3 li {
+            list-style: none;
+            padding: 5px;
+        }
+
+        .programs_list3 li:hover {
+            background-color:#00a2ff;
+        }
+
+        .programs_list1 li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .programs_list2 li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .programs_list3 li a {
+            text-decoration: none;
+            color: white;
+            background-color: none;
+        }
+
+        .facade {
+            display: flex;
+            height: 600px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .mpci {
+            width: 100%;
+            height: 600px;
+        }
+
+        .logo2 {
+            position: absolute;
+            top: 290px;
+            place-content: center;
+            width: 200px;
+            height: 200px;
+        }
+
+        .since {
+            color: white;
+            font-size: 50px;
+            position: absolute;
+            top: 500px;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 50px;
+            padding: 0 20px;
+            align-items: center;
+            text-align: right;
+        }
+
+        .announcement {
+            margin: 40px 300px 5px;
+            color: #0a0372;
+        }
+
+        .content1 {
+            display: flex;
+            flex-direction: column;
+            width: 1300px;
+            justify-content: flex-end;
+            text-align: start;
+            border-radius: 10px;
+            background-color: rgba(245, 245, 245, 0.716);
+            margin: 20px;
+        }
+        
+        .content1 img {
+            width: auto;
+            height: auto;
+            overflow: hidden;
+        }
+        
+        .let {
+            display: flex;
+            width: 100%;
+            height: 100px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            background-color: #0a0372;
+        }
+
+        .spacer1 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 200px;
+            padding-right: 40px;
+            text-align: center;
+            background-color: #0084ff;
+            justify-content: center;
+            align-items: center;
+            color:#ffffff;
+            font-size: larger;
+        }
+
+        .spacer2 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            padding-right: 40px;
+            background-color: #0a0372;
+            text-align: center;
+            color: white;
+        }
+
+        .spacer3 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            padding-right: 40px;
+            background-color: #ffffff;
+            text-align: center;
+            color: white;
+        }
+
+        .feature-content {
+            place-content: center;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            height: fit-content;
+            margin: 0 auto;
+            z-index: 1;
+        }
+
+        .course-images {
+            display: flex;
+            overflow-x: auto;
+            width: 1300px;
+            scroll-behavior: smooth;
+            gap: 1rem;
+            padding: 30px 30px;
+        }
+
+        .course-image1:hover {
+            box-shadow: 0 0 20px 5px rgb(255, 0, 0); 
+        }
+        .course-image2:hover {
+            box-shadow: 0 0 20px 5px rgb(255, 208, 0); 
+        }
+        .course-image3:hover {
+            box-shadow: 0 0 20px 5px rgb(255, 0, 255); 
+        }
+        .course-image4:hover {
+            box-shadow: 0 0 20px 5px rgb(0, 102, 255); 
+        }
+        .course-image5:hover {
+            box-shadow: 0 0 20px 5px rgb(0, 255, 0); 
+        }
+
+        .course-images img {
+            width: 100%; 
+            height: 100%; 
+        }
+
+        .btn {
+            display: inline-block;
+            position: relative;
+            width: 120px;
+            padding: 15px;
+            margin: 50px auto 5px;
+            border-radius: 55px;
+            text-align: center;
+            text-decoration: none;
+            background-color:#0084ff;
+            color: #fff;
+        }
+
+        .btn:hover {
+            background-color: red;
+        }
+
+        .btn2 {
+            display: inline-block;
+            position: absolute;
+            width: 120px;
+            padding: 15px;
+            bottom: 230px;
+            margin: 50px auto 5px;
+            border-radius: 55px;
+            text-align: center;
+            text-decoration: none;
+            background-color:#0a0372;
+            color: #fff;
+        }
+
+        .btn2:hover {
+            background-color:#0171da;
+        }
+
+        .content2 {
+            display: flex;
+            width: 1300px;
+            height: 100vh;
+            background-color: rgba(245, 245, 245, 0.716);
+            text-align: start;
+        }
+
+        .footer {
+            display: flex;
+            width: 100%;
+            height: fit-content;
+            justify-content: space-evenly;
+            padding: 20px 0 40px 10px ;
+            background-color: #0084ff;
+            color: white;
+            font-size: medium;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            text-align: left;
+        }
+
+        .footer-links h2 {
+            font-size: medium;
+        }
+            
+
+        .footer-links2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 0 0 5px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navtab">
+        <img src="MPCI NEW LOGO.png" class="logo1">
+        <ul class="tab">
+            <li><a href="#" style="font-weight: bold; border-bottom: solid 2px #0a0372;">Home</a></li>
+            <li class="programs1"><a href="#" class="maintab">Programs</a>
+                <ul class="programs_list1">
+                    <li><a href="#">BS in Criminology</a></li>
+                    <li><a href="#">Eearly Child-hood Education</a></li>
+                    <li><a href="#">Elementary Education</a></li>
+                    <li><a href="#">Technical Vocational Teachers Education</a></li>
+                    <li><a href="#">BS in Business Administration(MM/FM)</a></li>
+                    <li><a href="#">BS in Hospitality Management</a></li>
+                    <li><a href="#">Complete High School Program(JHS&SHS)</a></li>
+                    <li><a href="#">TESDA NCII/NCIII</a></li>
+                </ul>
+            </li>
+            <li class="programs2"><a href="#" class="maintab">About</a>
+                <ul class="programs_list2">
+                    <li><a href="#">VMG</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Scholarships</a></li>
+                    <li><a href="#">Enrollment Requirements</a></li>
+                </ul>
+            </li>
+            <li class="programs3"><a href="#" class="maintab">Log-in</a>
+                <ul class="programs_list3">
+                    <li><a href="#">SRMS</a></li>
+                    <li><a href="#">LMS</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="welcometab">
+        <h1 class="welcometext">
+            MATI POLYTECHNIC COLLEGE, INC.
+        </h1>
+        <p>Don Mariano Marcos Avenue, Brgy. Sainz, Mati City, Davao Oriental</p>
+    </div>
+    <div class="navtab2">
+        <ul class="tab2">
+            <li><a href="#">LMS</a></li>
+            <li><a href="#">SRMS</a></li>
+            <li><a href="#">TESDA</a></li>
+            <li><a href="#">eLIBRARY</a></li>
+        </ul> 
+    </div>
+    <div class="facade">
+        <img src="logo.png" class="logo2">
+        <img src="MPCI.png" class="mpci">
+        <h1 class="since">SINCE 1992</h1>
+        <a href="a.html" title="Click to submit an Online enrollment form" class="btn2"><b>Learn more</b></a>
+    </div>
+    <div class="spacer1">
+        <h2>
+            Looking for an affordable and high quality education?
+        </h2>
+    </div>
+    <h2 class="announcement">ANNOUNCEMENTS</h2>
+    <div class="main-content">
+        <div class="content1">
+            <img src="ads2.png">
+            <div class="let">
+                <p>MPCI provide high-quality education through our skilled faculty and comprehensive courses designed
+                    to prepare students for their future.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="spacer2">
+            <h2>Scholarship programs are being offered including CHED TES Grantees for qualified college students,<br>
+                and the Voucher Program from the Department of Education for all high school students.
+            </h2>
+            <a href="a.html" title="Click to submit an Online enrollment form" class="btn"><b>See Programs</b></a>
+    </div>
+        <div class="feature-content">
+            <div class="course-images">
+                <div class="course-image1">
+                    <a href="https://www.facebook.com/profile.php?id=61550505056812" title="Click to go to their Official page" target="_blank"><img src="6.png" alt="Course 1"></a>
+                </div>
+                <div class="course-image2">
+                    <a href="https://www.facebook.com/profile.php?id=61560609847022" title="Click to go to their Official page" target="_blank"><img src="7.png" alt="Course 2"></a>
+                </div>
+                <div class="course-image3">
+                    <a href="https://www.facebook.com/profile.php?id=61556749400651" title="Click to go to their Official page" target="_blank"><img src="8.png" alt="Course 3"></a>
+                </div>
+                <div class="course-image4">
+                    <a href="https://www.facebook.com/profile.php?id=100089457577165" title="Click to go to their Official page" target="_blank"><img src="9.png" alt="Course 4"></a>
+                </div>
+                <div class="course-image5">
+                    <a href="https://www.facebook.com/profile.php?id=100089457577165" title="Click to go to their Official page" target="_blank"><img src="10.png" alt="Course 4"></a>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="footer-links">
+            <h2>Location</h2>
+            <p>Don Mariano Marcos Avenue, Brgy. <br>
+                Sainz, Mati City, Davao Oriental</p>
+            <p>Philippines</p>
+            <p>8200</p>
+        </div>
+        <div class="footer-links">
+            <h2>Contact No.</h2>
+            <p>(087) 388 4820</p>
+            <p>+63997 825 1919</p>
+        </div>
+        <div class="footer-links">
+            <h2>Emails</h2>
+            <P>mpci.edu.ph</p>
+            <p>mpciicto@gamil.com</p>
+        </div>
+        <div class="footer-links">
+            <h2>Social Media</h2>
+            <p>Mati Polytechnic College, Inc. (MPCares) facebook</p>
+            <p>MPCI ICTO facebook</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-links2">
+            <p>Mati Polytechnic College, Inc.</p>
+            <p>©2025 All Rights Reserved</p>
+        </div>
+    </div>
+
+</body>
+</html>
